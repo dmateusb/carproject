@@ -5,11 +5,18 @@
  */
 package carproject;
 
+import com.sun.javafx.cursor.CursorFrame;
+import com.sun.javafx.scene.paint.GradientUtils.Point;
+import java.awt.MouseInfo;
+import java.awt.Toolkit;
 import java.awt.geom.Rectangle2D;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Cursor;
+import javafx.scene.ImageCursor;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -19,7 +26,7 @@ import javafx.stage.StageStyle;
  * @author david
  */
 public class CarProject extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.initStyle(StageStyle.DECORATED);
@@ -29,6 +36,9 @@ public class CarProject extends Application {
         //stage.setMaximized(true);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
+        Image image= new Image("file:./res/img/puntero.png");
+        stage.getScene().setCursor(new ImageCursor(image, image.getWidth()/2,
+                image.getHeight()/2));
         stage.setX(bounds.getMinX());
         stage.setY(bounds.getMinY());
         stage.setWidth(bounds.getWidth());
@@ -42,5 +52,5 @@ public class CarProject extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }

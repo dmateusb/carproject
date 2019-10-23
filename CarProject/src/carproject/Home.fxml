@@ -90,11 +90,6 @@
                         <Button fx:id="btnprueba2" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
                         <Button fx:id="btnprueba3" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" />
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" />
-                        <ImageView fx:id="paquete1" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#abrirPdf" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../res/img/icon1.jpg" />
-                           </image>
-                        </ImageView>
                      </children>
                   </GridPane>
                </content>
