@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package carproject;
+import com.sun.deploy.config.Config;
 import org.jpedal.*;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -14,6 +15,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.geometry.HPos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
@@ -34,18 +36,11 @@ public class HomeController implements Initializable {
     @FXML
     private FontAwesomeIcon close;
     @FXML
-    private Button btnprueba;
-    @FXML
-    private ImageView paquete1;
-    @FXML
-    private Button btnprueba1;
-    @FXML
-    private Button btnprueba2;
-    @FXML
-    private Button btnprueba3;
+    private GridPane cuadricula;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        
     }
 
     @FXML
@@ -60,7 +55,6 @@ public class HomeController implements Initializable {
         stage.close();
     }
 
-    @FXML
     private void abrirPdf(MouseEvent event) throws IOException, PdfException {
         Desktop.getDesktop().open(new java.io.File("./res/pdf/1.pdf"));
     }
