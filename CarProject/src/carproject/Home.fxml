@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #57606f;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
+<BorderPane style="-fx-background-color: #000;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
    <top>
       <HBox fx:id="min" alignment="CENTER_RIGHT" prefHeight="11.0" prefWidth="590.0" style="-fx-background-color: #dfe4ea;" BorderPane.alignment="CENTER">
          <padding>
@@ -38,11 +38,11 @@
       </HBox>
    </top>
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+      <AnchorPane>
          <children>
-            <ScrollPane fitToWidth="true" prefHeight="770.0" prefWidth="1280.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="881.0" prefWidth="1400.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
                <content>
-                  <GridPane prefHeight="559.0" prefWidth="1265.0" style="-fx-background-color: #fff;">
+                  <GridPane alignment="CENTER" hgap="10.0" style="-fx-background-color: #fff;" vgap="10.0">
                     <columnConstraints>
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -59,7 +59,8 @@
                         <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2">
                            <padding>
                               <Insets top="10.0" />
-                           </padding></Button>
+                           </padding>
+                        </Button>
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                         <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="1" />
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
@@ -68,12 +69,13 @@
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2">
                            <GridPane.margin>
                               <Insets />
-                           </GridPane.margin></Button>
+                           </GridPane.margin>
+                        </Button>
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                         <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2" />
-                        <Button fx:id="btnprueba" mnemonicParsing="false" onMousePressed="#abrirPdf" prefWidth="87.0">
+                        <Button fx:id="btnprueba" mnemonicParsing="false" onMousePressed="#abrirPdf" prefWidth="87.0" textAlignment="CENTER">
                            <graphic>
                               <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -83,8 +85,17 @@
                            </graphic>
                            <effect>
                               <ImageInput />
-                           </effect></Button>
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                           </effect>
+                        </Button>
+                        <Button mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                           <graphic>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../imagenes/icon1.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
                         <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2" />
                         <Button fx:id="btnprueba1" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="2" />
                         <Button fx:id="btnprueba2" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
@@ -94,6 +105,18 @@
                   </GridPane>
                </content>
             </ScrollPane>
+            <AnchorPane prefHeight="200.0" prefWidth="1400.0" style="-fx-background-color: #ffffff;" styleClass="anchor" stylesheets="@Style.css" AnchorPane.bottomAnchor="681.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <padding>
+                  <Insets left="100.0" right="100.0" />
+               </padding>
+               <children>
+                  <ImageView nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../imagenes/CABEZOTE%20CAR-01.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
    </center>
