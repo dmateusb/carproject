@@ -29,6 +29,9 @@ public class CarProject extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+        System.out.println("hola");
+        System.out.println("hola");
+        System.out.println("hola");
         stage.initStyle(StageStyle.UNDECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);

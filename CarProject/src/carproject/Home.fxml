@@ -87,20 +87,20 @@
                               <ImageInput />
                            </effect>
                         </Button>
+                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <Button fx:id="btnprueba1" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                        <Button fx:id="btnprueba2" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                        <Button fx:id="btnprueba3" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" />
+                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" />
                         <Button mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="1">
                            <graphic>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../imagenes/icon1.jpg" />
                                  </image>
                               </ImageView>
                            </graphic>
                         </Button>
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                        <Button fx:id="btnprueba1" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                        <Button fx:id="btnprueba2" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                        <Button fx:id="btnprueba3" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" />
                      </children>
                   </GridPane>
                </content>
@@ -110,7 +110,7 @@
                   <Insets left="100.0" right="100.0" />
                </padding>
                <children>
-                  <ImageView nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <ImageView nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <image>
                         <Image url="@../imagenes/CABEZOTE%20CAR-01.jpg" />
                      </image>
