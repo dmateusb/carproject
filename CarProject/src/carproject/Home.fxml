@@ -2,17 +2,15 @@
 
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.RowConstraints?>
 
 <BorderPane style="-fx-background-color: #000;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
    <top>
@@ -40,71 +38,6 @@
    <center>
       <AnchorPane>
          <children>
-            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="881.0" prefWidth="1400.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
-               <content>
-                  <GridPane alignment="CENTER" hgap="10.0" style="-fx-background-color: #fff;" vgap="10.0">
-                    <columnConstraints>
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                    </columnConstraints>
-                    <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                    </rowConstraints>
-                     <children>
-                        <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2">
-                           <padding>
-                              <Insets top="10.0" />
-                           </padding>
-                        </Button>
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="1" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2">
-                           <GridPane.margin>
-                              <Insets />
-                           </GridPane.margin>
-                        </Button>
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2" />
-                        <Button fx:id="btnprueba" mnemonicParsing="false" onMousePressed="#abrirPdf" prefWidth="87.0" textAlignment="CENTER">
-                           <graphic>
-                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../res/img/phone.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <effect>
-                              <ImageInput />
-                           </effect>
-                        </Button>
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                        <Button fx:id="btnprueba1" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                        <Button fx:id="btnprueba2" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                        <Button fx:id="btnprueba3" mnemonicParsing="false" onMousePressed="#abrirPdf" text="Button" GridPane.columnIndex="4" />
-                        <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" />
-                        <Button mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="1">
-                           <graphic>
-                              <ImageView pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../imagenes/icon1.jpg" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                        </Button>
-                     </children>
-                  </GridPane>
-               </content>
-            </ScrollPane>
             <AnchorPane prefHeight="200.0" prefWidth="1400.0" style="-fx-background-color: #ffffff;" styleClass="anchor" stylesheets="@Style.css" AnchorPane.bottomAnchor="681.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <padding>
                   <Insets left="100.0" right="100.0" />
@@ -117,6 +50,32 @@
                   </ImageView>
                </children>
             </AnchorPane>
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="881.0" prefWidth="1400.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: fff;">
+                     <children>
+                        <Accordion layoutX="24.0" layoutY="31.0" />
+                        <Accordion layoutX="332.0" layoutY="78.0" />
+                        <ImageView fitHeight="150.0" fitWidth="202.0" layoutX="28.0" layoutY="31.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../imagenes/icon1.jpg" />
+                           </image>
+                        </ImageView>
+                      <TitledPane animated="false" layoutX="27.0" layoutY="181.0" style="-fx-background-color: #007cc4;" text="untitled 2">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="140.0" prefWidth="200.0" style="-fx-background-color: #439ed8;">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="21.0" text="Link1" textFill="WHITE" />
+                                    <Label layoutX="14.0" layoutY="62.0" text="Link2" textFill="WHITE" />
+                                    <Label layoutX="14.0" layoutY="104.0" text="Link3" textFill="WHITE" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </TitledPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
          </children>
       </AnchorPane>
    </center>
