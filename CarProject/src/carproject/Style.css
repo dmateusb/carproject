@@ -3,3 +3,6 @@ FontAwesomeIcon:hover{
     -fx-cursor: hand;
 }
 
+.accordion{
+   -fx-background-color: null;
+}
