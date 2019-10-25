@@ -4,10 +4,6 @@
  * and open the template in the editor.
  */
 package carproject;
-import com.sun.deploy.config.Config;
-import org.jpedal.*;
-import java.awt.Dimension;
-import java.awt.Toolkit;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import java.awt.Desktop;
 import java.io.IOException;
@@ -15,10 +11,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.geometry.HPos;
 import javafx.scene.Node;
-import javafx.scene.control.Button;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -32,25 +25,24 @@ import org.jpedal.exception.PdfException;
 public class HomeController implements Initializable {
 
     @FXML
-    private HBox min;
+    private FontAwesomeIcon min;
     @FXML
     private FontAwesomeIcon close;
-    @FXML
-    private GridPane cuadricula;
+
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         
     }
-
     @FXML
     private void min(MouseEvent event) {
+        System.out.println("minnn");
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setIconified(true);
     }
-
     @FXML
     private void closed(MouseEvent event) {
+        System.out.println("closeeed");
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
     }
