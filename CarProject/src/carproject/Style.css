@@ -3,8 +3,12 @@ FontAwesomeIcon:hover{
     -fx-cursor: hand;
 }
 
+.btns:hover{
+    -fx-cursor: hand;
+}
+
 .accordion{
-   -fx-background-color: null;
+   -fx-background-color: #B2D742;
 }
 @font-face {
 font-family: 'Swiss 721 Condensed BT';

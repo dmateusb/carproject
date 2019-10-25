@@ -58,17 +58,16 @@ public class HomeController implements Initializable {
         Desktop.getDesktop().open(new java.io.File("./res/pdf/1.pdf"));
     }
     @FXML
-    private void abrirAgua(MouseEvent event) throws IOException {
-        AguaEducacionController controller= new AguaEducacionController();
-        controller.setStage(this.stage);
+    private void abrirHumedales(MouseEvent event) throws IOException {
+        HumedalesController controller= new HumedalesController();
         controller.openFXML();
     }
-    @FXML
     public void openFXML() throws IOException {
         this.stage.initStyle(StageStyle.TRANSPARENT);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
         this.stage.setScene(scene);
+   //     stage.getIcons().add(new Image("file:../imagenes/puntero.png"));
         cambiarPuntero(this.stage);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
@@ -91,6 +90,17 @@ public class HomeController implements Initializable {
 
     public void setStage(Stage stage) {
         this.stage = stage;
+    }
+
+    @FXML
+    private void abrirFauna(MouseEvent event) throws IOException {
+        FaunaController controller= new FaunaController();
+        controller.openFXML();
+    }
+    @FXML
+    private void abrirSistemas(MouseEvent event) throws IOException {
+        SistemasReproduccionController controller= new SistemasReproduccionController();
+        controller.openFXML();
     }
 
 
