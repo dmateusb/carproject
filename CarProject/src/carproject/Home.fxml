@@ -61,7 +61,7 @@
                            <children>
                               <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;">
                                  <children>
-                                    <Button fx:id="btnagua" onMouseClicked="#abrirHumedales" style="-fx-background-color: #fff;" styleClass="btns" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+                                    <Button onMouseClicked="#abrirHumedales" style="-fx-background-color: #fff;" styleClass="btns" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
                                        <graphic>
                                           <ImageView fitHeight="285.0" fitWidth="380.0" pickOnBounds="true" preserveRatio="true" styleClass="btns">
                                              <image>
