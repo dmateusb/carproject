@@ -18,7 +18,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.SistemasReproduccionController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" style="-fx-background-color: #4d8cc7;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.SistemasReproduccionController">
    <top>
       <HBox alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: #E0E0E2;">
          <children>
@@ -32,7 +32,7 @@
       </HBox>
    </top>
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: B2D742;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4d8cc7;" BorderPane.alignment="CENTER">
          <children>
             <AnchorPane layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="250.0" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="309.0" AnchorPane.topAnchor="83.0">
                <children>
@@ -52,13 +52,13 @@
                   </Text>
                </children>
             </TextFlow>
-            <Accordion layoutX="402.0" layoutY="240.0" prefHeight="201.0" prefWidth="274.0" style="-fx-background-color: B2D742;" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="402.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="240.0">
+            <Accordion layoutX="402.0" layoutY="240.0" prefHeight="201.0" prefWidth="274.0" style="-fx-background-color: #4d8cc7;" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="402.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="240.0">
                <panes>
                   <TitledPane animated="false" text="Afiche">
                      <content>
-                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: B2D742;">
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4d8cc7;">
                            <children>
-                              <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Afiche" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Afiche" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <graphic>
                                     <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -73,9 +73,9 @@
                   </TitledPane>
                   <TitledPane animated="false" text="Cartilla">
                      <content>
-                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: B2D742;">
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4d8cc7;">
                            <children>
-                              <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Cartilla" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Cartilla" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <graphic>
                                     <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -107,9 +107,9 @@
                                           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                        </rowConstraints>
                                        <children>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -120,9 +120,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.columnIndex="1">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.columnIndex="1">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Seco Húmedo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Seco Húmedo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -133,9 +133,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.rowIndex="1">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.rowIndex="1">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -146,9 +146,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -159,9 +159,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.rowIndex="2">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.rowIndex="2">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -172,9 +172,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -185,9 +185,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.rowIndex="3">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.rowIndex="3">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -198,9 +198,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -211,9 +211,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.rowIndex="4">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.rowIndex="4">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -224,9 +224,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                          <AnchorPane prefHeight="118.0" prefWidth="92.0" style="-fx-background-color: #4d8cc7;" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                              <children>
-                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: B2D742;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="85.0" prefWidth="100.0" style="-fx-background-color: #4d8cc7;" styleClass="btns" text="Bosque Andino" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="52.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
