@@ -17,12 +17,12 @@
    <top>
       <HBox alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: #dfe4ea;" BorderPane.alignment="CENTER">
          <children>
-            <FontAwesomeIcon fx:id="min" iconName="MINUS" onMouseClicked="#min">
+            <FontAwesomeIcon iconName="MINUS" onMouseClicked="#min">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </FontAwesomeIcon>
-            <FontAwesomeIcon fx:id="close" fill="#ff7575" iconName="CLOSE" onMouseClicked="#closed">
+            <FontAwesomeIcon fill="#ff6d6d" iconName="CLOSE" onMouseClicked="#closed">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
@@ -71,7 +71,7 @@
                            <children>
                               <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;">
                                  <children>
-                                    <Button mnemonicParsing="false" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <Button fx:id="btnagua" mnemonicParsing="false" onMouseClicked="#abrirAgua" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <graphic>
                                           <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                                              <image>

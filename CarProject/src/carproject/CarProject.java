@@ -29,18 +29,9 @@ public class CarProject extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.initStyle(StageStyle.TRANSPARENT);
-        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        cambiarPuntero(stage);
-        Screen screen = Screen.getPrimary();
-        javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
-        stage.setX(bounds.getMinX());
-        stage.setY(bounds.getMinY());
-        stage.setWidth(bounds.getWidth());
-        stage.setHeight(bounds.getHeight());
-        stage.show();
+        HomeController controller= new HomeController();
+        controller.setStage(stage);
+        controller.openFXML();
     }
 
     /**
@@ -50,10 +41,5 @@ public class CarProject extends Application {
         launch(args);
     }
 
-    public void cambiarPuntero(Stage stage) {
-        Image image = new Image("file:./res/img/puntero.png");
-        stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
-                image.getHeight() / 2));
-    }
 
 }
