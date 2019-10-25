@@ -68,9 +68,10 @@ public class HumedalesController implements Initializable {
         stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
                 image.getHeight() / 2));
     }
+    @FXML
     private void abrirPdf(MouseEvent event) throws IOException, PdfException {
-        System.out.println("buenas");
-        Desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
+        Desktop desktop = Desktop.getDesktop();
+        desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
     }
     
     @FXML
