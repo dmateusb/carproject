@@ -83,16 +83,6 @@ public class HumedalesController implements Initializable {
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
     }
 
-    @FXML
-    private void pruebaPdf(MouseEvent event) {
-        Desktop desktop = Desktop.getDesktop();
-        try {
-            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-        } catch (IOException ex) {
-            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-
-  
+       
     
 }

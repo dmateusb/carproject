@@ -22,7 +22,7 @@
                   <Insets left="100.0" right="100.0" />
                </padding>
                <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="30.0" text="HERRAMIENTAS EDUCATIVAS AMBIENTALES" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true">
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="30.0" text="HERRAMIENTAS EDUCATIVAS AMBIENTALES" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true">
                      <font>
                         <Font name="Swis721 Cn BT Bold" size="36.0" />
                      </font>
@@ -37,7 +37,7 @@
                         <Image url="@../imagenes/CABEZOTE-CAR_03.jpg" />
                      </image>
                   </ImageView>
-                  <Label alignment="CENTER" centerShape="false" contentDisplay="CENTER" layoutX="520.0" layoutY="75.0" text="Y PAQUETES PEDAGÓGICOS" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true">
+                  <Label alignment="CENTER" centerShape="false" contentDisplay="CENTER" layoutX="720.0" layoutY="75.0" text="Y PAQUETES PEDAGÓGICOS" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true">
                      <font>
                         <Font name="Swis721 Cn BT Bold" size="36.0" />
                      </font>
@@ -48,7 +48,7 @@
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="994.0" prefWidth="1298.0" style="-fx-background-color: #fff;">
                      <children>
-                        <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <GridPane prefHeight="598.4" prefWidth="1444.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                           <columnConstraints>
                             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
