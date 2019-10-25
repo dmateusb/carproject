@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -68,11 +70,6 @@ public class HumedalesController implements Initializable {
         stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
                 image.getHeight() / 2));
     }
-    @FXML
-    private void abrirPdf(MouseEvent event) throws IOException, PdfException {
-        Desktop desktop = Desktop.getDesktop();
-        desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-    }
     
     @FXML
     private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
@@ -87,8 +84,15 @@ public class HumedalesController implements Initializable {
     }
 
     @FXML
-    private void abrirPdf(ActionEvent event) {
+    private void pruebaPdf(MouseEvent event) {
+        Desktop desktop = Desktop.getDesktop();
+        try {
+            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
+        } catch (IOException ex) {
+            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
-    
+
+  
     
 }
