@@ -6,3 +6,12 @@ FontAwesomeIcon:hover{
 .accordion{
    -fx-background-color: null;
 }
+@font-face {
+font-family: 'Swiss 721 Condensed BT';
+font-style: normal;
+font-weight: normal;
+src: url("../fonts/Swiss721CondensedBT.woff");
+}
+.Text {
+    -fx-font-family: Swiss 721 Condensed BT;
+}
