@@ -35,7 +35,7 @@ public class FaunaController implements Initializable {
    public void openFXML() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Fauna.fxml"));
         Parent root = (BorderPane) loader.load(getClass().getResource("Fauna.fxml").openStream());
-        Stage stage = new Stage(StageStyle.UNDECORATED);
+        Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         cambiarPuntero(stage);

@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -45,7 +46,7 @@ public class HumedalesController implements Initializable {
     public void openFXML() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Humedales.fxml"));
         Parent root = (BorderPane) loader.load(getClass().getResource("Humedales.fxml").openStream());
-        Stage stage = new Stage(StageStyle.UNDECORATED);
+        Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         cambiarPuntero(stage);
@@ -57,7 +58,6 @@ public class HumedalesController implements Initializable {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setIconified(true);
     }
-    @FXML
     private void closed(MouseEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
@@ -72,8 +72,7 @@ public class HumedalesController implements Initializable {
         System.out.println("buenas");
         Desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
     }
-  
-
+    
     @FXML
     private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
         Desktop desktop = Desktop.getDesktop();
@@ -84,6 +83,10 @@ public class HumedalesController implements Initializable {
     private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
          Desktop desktop = Desktop.getDesktop();
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
+    }
+
+    @FXML
+    private void abrirPdf(ActionEvent event) {
     }
     
     

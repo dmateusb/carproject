@@ -63,7 +63,7 @@ public class HomeController implements Initializable {
         controller.openFXML();
     }
     public void openFXML() throws IOException {
-        this.stage.initStyle(StageStyle.TRANSPARENT);
+        this.stage.initStyle(StageStyle.DECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
         this.stage.setScene(scene);
