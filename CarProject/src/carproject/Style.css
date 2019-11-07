@@ -6,7 +6,12 @@ FontAwesomeIcon:hover{
 .btns:hover{
     -fx-cursor: hand;
 }
-
+.tab{
+    -fx-pref-width: 500px   ;
+}
+.tab-header-aligment{
+    -fx-alignment: CENTER;
+}
 .accordion{
    -fx-background-color: #B2D742;
 }

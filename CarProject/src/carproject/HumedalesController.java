@@ -7,7 +7,9 @@ package carproject;
 
 import java.net.URI;
 import java.awt.Desktop;
+import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -84,13 +86,18 @@ public class HumedalesController implements Initializable {
     }
 
     @FXML
-    private void pruebaPdf(MouseEvent event) {
+    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
+        
         Desktop desktop = Desktop.getDesktop();
-        try {
-            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-        } catch (IOException ex) {
-            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        
+//        try {
+//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
+//        } catch (IOException ex) {
+//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+//        } 
+        String ruta= "./src/pdf/guiawet.pdf";
+        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
+
     }
 
   

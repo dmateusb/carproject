@@ -17,6 +17,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TabPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
@@ -36,20 +37,22 @@ public class HomeController implements Initializable {
     private Stage stage;
     @FXML
     private Button btnagua;
+    @FXML
+    private TabPane pestana;
+    @FXML
+    private Button btnagua1;
 
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         
     }
-    @FXML
     private void min(MouseEvent event) {
         System.out.println("minnn");
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setIconified(true);
     }
 
-    @FXML
     private void closed(MouseEvent event) {
         System.exit(0);
     }
@@ -67,7 +70,7 @@ public class HomeController implements Initializable {
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
         this.stage.setScene(scene);
-   //     stage.getIcons().add(new Image("file:../imagenes/puntero.png"));
+        stage.getIcons().add(new Image("file:../imagenes/puntero.png"));
         cambiarPuntero(this.stage);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
