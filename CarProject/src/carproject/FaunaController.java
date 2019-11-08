@@ -5,9 +5,12 @@
  */
 package carproject;
 
+import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -43,10 +46,20 @@ public class FaunaController implements Initializable {
         stage.show();
     }
    
-    public void cambiarPuntero(Stage stage) {
+    public void cambiarPuntero(Stage stage){
         Image image = new Image("file:./res/img/puntero.png");
         stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
                 image.getHeight() / 2));
+    }
+    
+    @FXML
+    private void pruebaPdf(MouseEvent event) {
+        Desktop desktop = Desktop.getDesktop();
+        try {
+            desktop.getDesktop().open(new java.io.File("./src/pdf/Boque seco humedo.pdf"));
+        } catch (IOException ex) {
+            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
    
     @Override

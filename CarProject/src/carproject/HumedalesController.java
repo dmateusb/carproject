@@ -7,6 +7,7 @@ package carproject;
 
 import java.net.URI;
 import java.awt.Desktop;
+import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -73,8 +74,7 @@ public class HumedalesController implements Initializable {
     
     @FXML
     private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
-        Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
+        File file = new File("./properties/files/ListStopWords.txt");
     }
 
     @FXML
@@ -83,6 +83,16 @@ public class HumedalesController implements Initializable {
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
     }
 
-       
+    @FXML
+    private void pruebaPdf(MouseEvent event) {
+        Desktop desktop = Desktop.getDesktop();
+        try {
+            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
+        } catch (IOException ex) {
+            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+  
     
 }

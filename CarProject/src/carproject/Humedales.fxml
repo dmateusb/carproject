@@ -43,7 +43,7 @@
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../imagenes/text-document.png" />
+                              <Image url="@../imagenes/text-document-dark.png" />
                            </image>
                         </ImageView>
                      </graphic>
