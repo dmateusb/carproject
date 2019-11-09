@@ -170,7 +170,7 @@
                                                    <children>
                                                       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;">
                                                          <children>
-                                                            <Button fx:id="btnagua1" onMouseClicked="#abrirHumedales" style="-fx-background-color: #fff;" styleClass="btns" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0" />
+                                                            <Button mnemonicParsing="false" onMouseClicked="#abrirClimaticamente" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                                          </children>
                                                       </AnchorPane>
                                                       <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">

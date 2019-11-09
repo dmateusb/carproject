@@ -105,6 +105,12 @@ public class HomeController implements Initializable {
         SistemasReproduccionController controller= new SistemasReproduccionController();
         controller.openFXML();
     }
+    
+    @FXML
+    private void abrirClimaticamente(MouseEvent event) throws IOException {
+        ClimaticamenteController controller= new ClimaticamenteController();
+        controller.openFXML();
+    }
 
 
 
