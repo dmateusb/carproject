@@ -10,20 +10,20 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.PPMetodosParticipacionController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.PPSistemasReproduccionController">
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="73.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="518.0" AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="72.0" AnchorPane.topAnchor="54.0">
                <image>
-                  <Image url="@../imagenes/Cabezotes/PPMetodo%20de%20Participación.png" />
+                  <Image url="@../imagenes/Cabezotes/PPSistemasProduccion.png" />
                </image>
             </ImageView>
             <AnchorPane layoutX="15.0" layoutY="131.0" prefHeight="332.0" prefWidth="696.0" AnchorPane.bottomAnchor="257.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="131.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="-20.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="266.0" fitWidth="281.0" layoutX="50.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/Ventanas%20individuales/PP%20MÉTODOS%20DE%20PARTICIPACIÓN.png" />
+                        <Image url="@../imagenes/Ventanas%20individuales/PP%20SISTEMAS%20DE%20PRODUCCIÓN.png" />
                      </image></ImageView>
                   <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="JUSTIFY">
                      <children>
@@ -38,7 +38,7 @@
             </AnchorPane>
             <AnchorPane layoutX="25.0" layoutY="459.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: #fff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#pruebaPdf" style="-fx-background-color: #fff;" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: #fff;" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -59,7 +59,7 @@
             </AnchorPane>
             <AnchorPane layoutX="252.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirJuego" style="-fx-background-color: Fff;" styleClass="btns" text="Juego" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: Fff;" styleClass="btns" text="Juego" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="60.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -75,7 +75,7 @@
             </AnchorPane>
             <AnchorPane layoutX="496.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirMultimedia" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
