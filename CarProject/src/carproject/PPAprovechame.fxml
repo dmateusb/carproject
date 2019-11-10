@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.PPAprovechameController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="73.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="518.0" AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="72.0" AnchorPane.topAnchor="54.0">
+               <image>
+                  <Image url="@../imagenes/Cabezotes/PPAprovechamiento.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="15.0" layoutY="131.0" prefHeight="332.0" prefWidth="696.0" AnchorPane.bottomAnchor="257.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="131.0">
+               <children>
+                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/Ventanas%20individuales/PP%20APROVECHAMIENTO%20Y%20MOVILIZACIÓN%20DE%20MADERA.png" />
+                     </image></ImageView>
+                  <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="JUSTIFY">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " wrappingWidth="264.13671875">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="25.0" layoutY="459.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#pruebaPdf" style="-fx-background-color: #fff;" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/text-document.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Swis721 Cn BT Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="40.0" layoutY="-5.0" text="Contenido" textFill="#63a455">
+                     <font>
+                        <Font name="Swis721 Cn BT Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="252.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
+               <children>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirJuego" style="-fx-background-color: Fff;" styleClass="btns" text="Juego" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/game.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Swis721 Cn BT Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="496.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
+               <children>
+                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirMultimedia" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/multimedia.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Swis721 Cn BT Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
