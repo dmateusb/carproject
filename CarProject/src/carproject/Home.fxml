@@ -126,13 +126,13 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                                      <AnchorPane prefHeight="703.0" prefWidth="426.0" GridPane.rowIndex="1">
                                                          <children>
                                                             <Button mnemonicParsing="false" onMouseClicked="#abrirSistemas" style="-fx-background-color: #fff;" styleClass="btns" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
                                                                <graphic>
                                                                   <ImageView fitHeight="285.0" fitWidth="380.0" pickOnBounds="true" preserveRatio="true">
                                                                      <image>
-                                                                        <Image url="@../imagenes/sistemasreproduccion.png" />
+                                                                        <Image url="@../imagenes/ClimaticaMente.png" />
                                                                      </image>
                                                                   </ImageView>
                                                                </graphic>
@@ -334,11 +334,11 @@
                               </AnchorPane>
                               <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                                  <children>
-                                    <Button mnemonicParsing="false" onMouseClicked="#abrirSistemas" style="-fx-background-color: #fff;" styleClass="btns" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+                                    <Button mnemonicParsing="false" onMouseClicked="#abrirSistemas" prefHeight="497.6" prefWidth="426.4" style="-fx-background-color: #fff;" styleClass="btns" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <graphic>
-                                          <ImageView fitHeight="285.0" fitWidth="380.0" pickOnBounds="true" preserveRatio="true">
+                                          <ImageView fitHeight="273.0" fitWidth="354.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
-                                                <Image url="@../imagenes/sistemasreproduccion.png" />
+                                                <Image url="@../imagenes/ClimaticaMente.png" />
                                              </image>
                                           </ImageView>
                                        </graphic>
