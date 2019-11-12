@@ -349,8 +349,8 @@
                         </GridPane>
                      </children>
                   </AnchorPane>
-              </content>
-            </ScrollPane>
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
    </center>

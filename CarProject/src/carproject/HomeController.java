@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package carproject;
+
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -45,7 +47,7 @@ public class HomeController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        
+        scrollfondo.setTranslateY(0);
     }
     private void min(MouseEvent event) {
         System.out.println("minnn");
@@ -60,11 +62,13 @@ public class HomeController implements Initializable {
     private void abrirPdf(MouseEvent event) throws IOException, PdfException {
         Desktop.getDesktop().open(new java.io.File("./res/pdf/1.pdf"));
     }
+
     @FXML
     private void abrirHumedales(MouseEvent event) throws IOException {
-        HumedalesController controller= new HumedalesController();
+        HumedalesController controller = new HumedalesController();
         controller.openFXML();
     }
+
     public void openFXML() throws IOException {
         this.stage.initStyle(StageStyle.DECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
@@ -80,7 +84,7 @@ public class HomeController implements Initializable {
         this.stage.setHeight(bounds.getHeight());
         this.stage.show();
     }
-    
+
     public void cambiarPuntero(Stage stage) {
         Image image = new Image("file:./res/img/puntero.png");
         stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
@@ -97,17 +101,78 @@ public class HomeController implements Initializable {
 
     @FXML
     private void abrirFauna(MouseEvent event) throws IOException {
-        FaunaController controller= new FaunaController();
+        PPFaunaController controller = new PPFaunaController();
         controller.openFXML();
     }
+
     @FXML
     private void abrirSistemas(MouseEvent event) throws IOException {
-        SistemasReproduccionController controller= new SistemasReproduccionController();
+        PPSistemasProduccionController controller = new PPSistemasProduccionController();
         controller.openFXML();
     }
 
+    private void abrirClimaticamente(MouseEvent event) throws IOException {
+        ClimaticamenteController controller = new ClimaticamenteController();
+        controller.openFXML();
+    }
 
+    @FXML
+    private void abrirPPAprovechame(ActionEvent event) throws IOException {
+        PPAprovechameController controller = new PPAprovechameController();
+        controller.openFXML();
+    }
 
+    @FXML
+    private void abrirPPBpa(ActionEvent event) throws IOException {
+        PPBpaController controller = new PPBpaController();
+        controller.openFXML();
+    }
 
-    
+    @FXML
+    private void abrirPPBuenasPracticas(ActionEvent event) throws IOException {
+        PPBuenasPracticasController controller = new PPBuenasPracticasController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirPPGestionAmbiental(MouseEvent event) throws IOException {
+        PPGestionAmbientalController controller = new PPGestionAmbientalController();
+        controller.openFXML();
+    }
+
+    private void abrirPPMetodosParticipacion(MouseEvent event) throws IOException {
+        PPMetodosParticipacionController controller = new PPMetodosParticipacionController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirPPMineria(MouseEvent event) throws IOException {
+        PPMineriaResponsableController controller = new PPMineriaResponsableController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirPPParamos(MouseEvent event) throws IOException {
+        PPParamosController controller = new PPParamosController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirPPPomcas(MouseEvent event) throws IOException {
+        PPPomcasController controller = new PPPomcasController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirPPPromocionLegalidad(MouseEvent event) throws IOException {
+        PPPromocionLegalidadController controller = new PPPromocionLegalidadController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirSistemasProduccionProcas(MouseEvent event) throws IOException {
+        PPSistemasProcasController controller = new PPSistemasProcasController();
+        controller.openFXML();
+    }
+
 }
