@@ -19,6 +19,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TabPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -38,17 +39,13 @@ public class HomeController implements Initializable {
 
     private Stage stage;
     @FXML
-    private Button btnagua;
-    @FXML
-    private TabPane pestana;
-    @FXML
-    private Button btnagua1;
-
+    private ScrollPane scrollfondo;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        scrollfondo.setTranslateY(0);
+        scrollfondo.setPrefViewportHeight(0);
     }
+
     private void min(MouseEvent event) {
         System.out.println("minnn");
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
