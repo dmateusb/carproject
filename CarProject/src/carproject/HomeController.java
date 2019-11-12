@@ -43,7 +43,7 @@ public class HomeController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        scrollfondo.setTranslateY(0);
+        scrollfondo.setPrefViewportHeight(0);
     }
 
     private void min(MouseEvent event) {
