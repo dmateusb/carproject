@@ -78,17 +78,38 @@
                                              </children></AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                              <children>
-                                                <Button defaultButton="true" layoutX="153.0" layoutY="169.0" mnemonicParsing="false" onAction="#abrirPPAprovechame" style="-fx-background-color: #fff;" text="PP Aprovechame" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <Button defaultButton="true" layoutX="153.0" layoutY="169.0" mnemonicParsing="false" onAction="#abrirAguaEducacion" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <graphic>
+                                                      <ImageView fitHeight="318.0" fitWidth="426.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../imagenes/Menu/Agua-y-educacion.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic></Button>
                                              </children>
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                              <children>
-                                                <Button mnemonicParsing="false" onAction="#abrirPPBpa" style="-fx-background-color: #fff;" text="PP BPA Subsector" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <Button mnemonicParsing="false" onAction="#abrirCadaResiduo" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <graphic>
+                                                      <ImageView fitHeight="304.0" fitWidth="513.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../imagenes/Menu/cada-residuo-en-su-lugar.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic></Button>
                                              </children>
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                              <children>
-                                                <Button mnemonicParsing="false" onAction="#abrirPPBuenasPracticas" style="-fx-background-color: #fff;" text="PP Buenas practicas" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <Button mnemonicParsing="false" onAction="#abrirClimaticamente" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <graphic>
+                                                      <ImageView fitHeight="290.0" fitWidth="422.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../imagenes/Menu/ClimaticaMente.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic></Button>
                                              </children>
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
@@ -106,12 +127,22 @@
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                              <children>
-                                                <Button layoutX="81.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#abrirPPGestionAmbiental" style="-fx-background-color: #fff;" text="PP GESTIÓN AMBIENTAL PARTICIPATIVA" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <Button layoutX="81.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#abrirPPGestionAmbiental" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <ImageView fitHeight="298.0" fitWidth="529.0" layoutX="54.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <image>
+                                                      <Image url="@../imagenes/sistemasreproduccion.png" />
+                                                   </image>
+                                                </ImageView>
                                              </children>
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                              <children>
-                                                <Button layoutX="187.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#abrirHumedales" style="-fx-background-color: #fff;" text="PP Hue" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <Button layoutX="187.0" layoutY="136.0" mnemonicParsing="false" onMouseClicked="#abrirHumedales" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <ImageView fitHeight="298.0" fitWidth="519.0" layoutX="113.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-93.0" AnchorPane.topAnchor="0.0">
+                                                   <image>
+                                                      <Image url="@../imagenes/humedales.png" />
+                                                   </image>
+                                                </ImageView>
                                              </children>
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">

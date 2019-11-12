@@ -113,19 +113,16 @@ public class HomeController implements Initializable {
         controller.openFXML();
     }
 
-    @FXML
     private void abrirPPAprovechame(ActionEvent event) throws IOException {
         PPAprovechameController controller = new PPAprovechameController();
         controller.openFXML();
     }
 
-    @FXML
     private void abrirPPBpa(ActionEvent event) throws IOException {
         PPBpaController controller = new PPBpaController();
         controller.openFXML();
     }
 
-    @FXML
     private void abrirPPBuenasPracticas(ActionEvent event) throws IOException {
         PPBuenasPracticasController controller = new PPBuenasPracticasController();
         controller.openFXML();
@@ -169,6 +166,25 @@ public class HomeController implements Initializable {
     @FXML
     private void abrirSistemasProduccionProcas(MouseEvent event) throws IOException {
         PPSistemasProcasController controller = new PPSistemasProcasController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirAguaEducacion(ActionEvent event) throws IOException {
+        System.out.println("entra");
+        AguaEducacionController controller=new AguaEducacionController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirCadaResiduo(ActionEvent event) throws IOException {
+        CadaResiduoController controller=new CadaResiduoController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirClimaticamente(ActionEvent event) throws IOException {
+        ClimaticamenteController controller=new ClimaticamenteController();
         controller.openFXML();
     }
 
