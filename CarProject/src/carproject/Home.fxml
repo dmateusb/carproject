@@ -80,7 +80,7 @@
                                              <children>
                                                 <Button defaultButton="true" layoutX="153.0" layoutY="169.0" mnemonicParsing="false" onAction="#abrirAguaEducacion" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
-                                                      <ImageView fitHeight="318.0" fitWidth="426.0" pickOnBounds="true" preserveRatio="true">
+                                                      <ImageView fitHeight="251.0" fitWidth="347.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
                                                             <Image url="@../imagenes/Menu/Agua-y-educacion.png" />
                                                          </image>
@@ -92,7 +92,7 @@
                                              <children>
                                                 <Button mnemonicParsing="false" onAction="#abrirCadaResiduo" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
-                                                      <ImageView fitHeight="304.0" fitWidth="513.0" pickOnBounds="true" preserveRatio="true">
+                                                      <ImageView fitHeight="250.0" fitWidth="513.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
                                                             <Image url="@../imagenes/Menu/cada-residuo-en-su-lugar.png" />
                                                          </image>
@@ -104,7 +104,7 @@
                                              <children>
                                                 <Button mnemonicParsing="false" onAction="#abrirClimaticamente" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
-                                                      <ImageView fitHeight="290.0" fitWidth="422.0" pickOnBounds="true" preserveRatio="true">
+                                                      <ImageView fitHeight="250.0" fitWidth="422.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
                                                             <Image url="@../imagenes/Menu/ClimaticaMente.png" />
                                                          </image>
