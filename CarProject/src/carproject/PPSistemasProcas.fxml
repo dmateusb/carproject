@@ -75,7 +75,7 @@
             </AnchorPane>
             <AnchorPane layoutX="496.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirMultimedia" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
