@@ -66,6 +66,7 @@ public class PPAprovechameController implements Initializable {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
     }
+    
 
     public void cambiarPuntero(Stage stage) {
         Image image = new Image("file:./res/img/puntero.png");

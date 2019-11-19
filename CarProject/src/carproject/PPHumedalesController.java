@@ -36,7 +36,7 @@ import org.jpedal.exception.PdfException;
  *
  * @author david
  */
-public class HumedalesController implements Initializable {
+public class PPHumedalesController implements Initializable {
    
     
     /**
@@ -48,8 +48,8 @@ public class HumedalesController implements Initializable {
     }
 
     public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Humedales.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("Humedales.fxml").openStream());
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPHumedales.fxml"));
+        Parent root = (BorderPane) loader.load(getClass().getResource("PPHumedales.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
@@ -96,7 +96,7 @@ public class HumedalesController implements Initializable {
 //        try {
 //            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
 //        } catch (IOException ex) {
-//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+//            Logger.getLogger(PPHumedalesController.class.getName()).log(Level.SEVERE, null, ex);
 //        } 
         String ruta= "./src/pdf/guiawet.pdf";
         desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));

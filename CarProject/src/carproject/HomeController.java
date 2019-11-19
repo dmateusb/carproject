@@ -52,17 +52,17 @@ public class HomeController implements Initializable {
         stage.setIconified(true);
     }
 
-    private void closed(MouseEvent event) {
+    private void closed() {
         System.exit(0);
     }
 
-    private void abrirPdf(MouseEvent event) throws IOException, PdfException {
+    private void abrirPdf() throws IOException, PdfException {
         Desktop.getDesktop().open(new java.io.File("./res/pdf/1.pdf"));
     }
 
     @FXML
-    private void abrirHumedales(MouseEvent event) throws IOException {
-        HumedalesController controller = new HumedalesController();
+    private void abrirPPHumedales() throws IOException {
+        PPHumedalesController controller = new PPHumedalesController();
         controller.openFXML();
     }
 
@@ -97,32 +97,32 @@ public class HomeController implements Initializable {
     }
 
     @FXML
-    private void abrirFauna(MouseEvent event) throws IOException {
+    private void abrirPPFauna(MouseEvent event) throws IOException {
         PPFaunaController controller = new PPFaunaController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirSistemas(MouseEvent event) throws IOException {
+    private void abrirPPSistemas(MouseEvent event) throws IOException {
         PPSistemasProduccionController controller = new PPSistemasProduccionController();
         controller.openFXML();
     }
-
+    @FXML
     private void abrirClimaticamente(MouseEvent event) throws IOException {
         ClimaticamenteController controller = new ClimaticamenteController();
         controller.openFXML();
     }
-
+    @FXML
     private void abrirPPAprovechame(ActionEvent event) throws IOException {
         PPAprovechameController controller = new PPAprovechameController();
         controller.openFXML();
     }
-
+    @FXML
     private void abrirPPBpa(ActionEvent event) throws IOException {
         PPBpaController controller = new PPBpaController();
         controller.openFXML();
     }
-
+    @FXML
     private void abrirPPBuenasPracticas(ActionEvent event) throws IOException {
         PPBuenasPracticasController controller = new PPBuenasPracticasController();
         controller.openFXML();
@@ -133,7 +133,7 @@ public class HomeController implements Initializable {
         PPGestionAmbientalController controller = new PPGestionAmbientalController();
         controller.openFXML();
     }
-
+    @FXML
     private void abrirPPMetodosParticipacion(MouseEvent event) throws IOException {
         PPMetodosParticipacionController controller = new PPMetodosParticipacionController();
         controller.openFXML();
@@ -164,7 +164,7 @@ public class HomeController implements Initializable {
     }
 
     @FXML
-    private void abrirSistemasProduccionProcas(MouseEvent event) throws IOException {
+    private void abrirPPSistemasProduccionProcas(MouseEvent event) throws IOException {
         PPSistemasProcasController controller = new PPSistemasProcasController();
         controller.openFXML();
     }
