@@ -85,18 +85,25 @@ public class HumedalesController implements Initializable {
     }
 
     @FXML
-    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
+    private void pruebaPdf() throws URISyntaxException, IOException {
         
         Desktop desktop = Desktop.getDesktop();
         
-//        try {
-//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-//        } catch (IOException ex) {
-//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-//        } 
-        String ruta= "./src/pdf/guiawet.pdf";
-        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
-
+        try {
+            String basePath = new File("").getAbsolutePath();
+            
+            if (basePath.substring(basePath.length()-5).equals("\\dist") ){
+                String aux = basePath.substring(0,basePath.length()-5);
+                basePath = aux;
+            }          
+            
+            basePath=basePath+"\\src\\pdf\\guiawet.pdf";
+            desktop.getDesktop().open(new java.io.File(basePath));
+            
+        } catch (IOException ex) {
+            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+            
+        }         
     }
 
   
