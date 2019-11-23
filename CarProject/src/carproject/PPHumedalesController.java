@@ -1,4 +1,4 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -53,7 +53,7 @@ public class PPHumedalesController implements Initializable {
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        cambiarPuntero(stage);
+        Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();
         stage.show();
     }
@@ -67,12 +67,7 @@ public class PPHumedalesController implements Initializable {
         stage.close();
     }
 
-    public void cambiarPuntero(Stage stage) {
-        Image image = new Image("file:./res/img/puntero.png");
-        stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
-                image.getHeight() / 2));
-        System.out.println("jnjsnjs");
-    }
+    
     
    
     

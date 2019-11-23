@@ -16,7 +16,7 @@
    <center>
       <AnchorPane prefHeight="980.0" prefWidth="1280.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane prefHeight="2739.0" prefWidth="1280.0" AnchorPane.bottomAnchor="-1939.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane prefHeight="803.0" prefWidth="1280.0" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
                      <image>
@@ -72,7 +72,7 @@
                                              </children></AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                              <children>
-                                                <Button layoutX="135.0" layoutY="111.0" mnemonicParsing="false" style="-fx-background-color: #fff;" text="Agua y educación" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                <Button layoutX="135.0" layoutY="111.0" mnemonicParsing="false" onAction="#abrirAguaEducacion" style="-fx-background-color: #fff;" text="Agua y educación" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                              </children></AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
                                              <children>
@@ -100,7 +100,7 @@
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                              <children>
-                                                <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#abrirPPHumedales" prefHeight="306.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#abrirPPHumedales" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <graphic>
                                                       <ImageView fitHeight="298.0" fitWidth="519.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -155,12 +155,30 @@
                                                 <Button mnemonicParsing="false" onAction="#abrirPPGestionAmbiental" prefHeight="301.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="PP GESTIÓN AMBIENTAL PARTICIPATIVA" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                              </children>
                                           </AnchorPane>
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6" />
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="7" />
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6">
+                                             <children>
+                                                <Button layoutX="176.0" layoutY="151.0" mnemonicParsing="false" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children></AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                             <children>
+                                                <Button mnemonicParsing="false" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children></AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                             <children>
+                                                <Button mnemonicParsing="false" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children></AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="7">
+                                             <children>
+                                                <Button mnemonicParsing="false" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="CARTILLAS DIDÁCTICAS BIODIVERSIDAD DEL TEQUENDAMA" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children></AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                             <children>
+                                                <Button mnemonicParsing="false" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="CARTLLA SUPER LIGA CICLO RE CICLO" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children></AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                                             <children>
+                                                <Button mnemonicParsing="false" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children></AnchorPane>
                                        </children>
                                     </GridPane>
                                  </children>

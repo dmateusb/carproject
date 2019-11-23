@@ -44,7 +44,7 @@ public class PPSistemasProduccionController implements Initializable {
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        cambiarPuntero(stage);
+        Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();
         stage.show();
     }
@@ -58,13 +58,6 @@ public class PPSistemasProduccionController implements Initializable {
     private void closed(MouseEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
-    }
-
-
-    public void cambiarPuntero(Stage stage) {
-        Image image = new Image("file:./res/img/puntero.png");
-        stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
-                image.getHeight() / 2));
     }
 
     private void abrirPdf(MouseEvent event) throws IOException, PdfException {

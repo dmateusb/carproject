@@ -37,7 +37,7 @@ import org.jpedal.exception.PdfException;
  */
 public class HomeController implements Initializable {
 
-    private Stage stage;
+    private static Stage stage;
     @FXML
     private ScrollPane scrollfondo;
 
@@ -47,7 +47,6 @@ public class HomeController implements Initializable {
     }
 
     private void min(MouseEvent event) {
-        System.out.println("minnn");
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setIconified(true);
     }
@@ -71,8 +70,7 @@ public class HomeController implements Initializable {
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
         this.stage.setScene(scene);
-        stage.getIcons().add(new Image("file:../imagenes/puntero.png"));
-        cambiarPuntero(this.stage);
+        Procedimiento.cambiarPuntero(HomeController.stage);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
         this.stage.setX(bounds.getMinX());
@@ -82,12 +80,14 @@ public class HomeController implements Initializable {
         this.stage.show();
     }
 
-    public void cambiarPuntero(Stage stage) {
+   
+    
+   /* public void cambiarPuntero(Stage stage) {
         Image image = new Image("file:./res/img/puntero.png");
         stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
                 image.getHeight() / 2));
     }
-
+*/
     public Stage getStage() {
         return stage;
     }
@@ -97,95 +97,91 @@ public class HomeController implements Initializable {
     }
 
     @FXML
-    private void abrirPPFauna(MouseEvent event) throws IOException {
+    private void abrirPPFauna() throws IOException {
         PPFaunaController controller = new PPFaunaController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPSistemas(MouseEvent event) throws IOException {
+    private void abrirPPSistemas() throws IOException {
         PPSistemasProduccionController controller = new PPSistemasProduccionController();
         controller.openFXML();
     }
     @FXML
-    private void abrirClimaticamente(MouseEvent event) throws IOException {
+    private void abrirClimaticamente() throws IOException {
         ClimaticamenteController controller = new ClimaticamenteController();
         controller.openFXML();
     }
     @FXML
-    private void abrirPPAprovechame(ActionEvent event) throws IOException {
+    private void abrirPPAprovechame() throws IOException {
         PPAprovechameController controller = new PPAprovechameController();
         controller.openFXML();
     }
     @FXML
-    private void abrirPPBpa(ActionEvent event) throws IOException {
+    private void abrirPPBpa() throws IOException {
         PPBpaController controller = new PPBpaController();
         controller.openFXML();
     }
     @FXML
-    private void abrirPPBuenasPracticas(ActionEvent event) throws IOException {
+    private void abrirPPBuenasPracticas() throws IOException {
         PPBuenasPracticasController controller = new PPBuenasPracticasController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPGestionAmbiental(MouseEvent event) throws IOException {
+    private void abrirPPGestionAmbiental() throws IOException {
         PPGestionAmbientalController controller = new PPGestionAmbientalController();
         controller.openFXML();
     }
     @FXML
-    private void abrirPPMetodosParticipacion(MouseEvent event) throws IOException {
+    private void abrirPPMetodosParticipacion() throws IOException {
         PPMetodosParticipacionController controller = new PPMetodosParticipacionController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPMineria(MouseEvent event) throws IOException {
+    private void abrirPPMineria() throws IOException {
         PPMineriaResponsableController controller = new PPMineriaResponsableController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPParamos(MouseEvent event) throws IOException {
+    private void abrirPPParamos() throws IOException {
         PPParamosController controller = new PPParamosController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPPomcas(MouseEvent event) throws IOException {
+    private void abrirPPPomcas() throws IOException {
         PPPomcasController controller = new PPPomcasController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPPromocionLegalidad(MouseEvent event) throws IOException {
+    private void abrirPPPromocionLegalidad() throws IOException {
         PPPromocionLegalidadController controller = new PPPromocionLegalidadController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirPPSistemasProduccionProcas(MouseEvent event) throws IOException {
+    private void abrirPPSistemasProduccionProcas() throws IOException {
         PPSistemasProcasController controller = new PPSistemasProcasController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirAguaEducacion(ActionEvent event) throws IOException {
+    private void abrirAguaEducacion() throws IOException {
         System.out.println("entra");
         AguaEducacionController controller=new AguaEducacionController();
         controller.openFXML();
     }
 
     @FXML
-    private void abrirCadaResiduo(ActionEvent event) throws IOException {
+    private void abrirCadaResiduo() throws IOException {
         CadaResiduoController controller=new CadaResiduoController();
         controller.openFXML();
     }
 
-    @FXML
-    private void abrirClimaticamente(ActionEvent event) throws IOException {
-        ClimaticamenteController controller=new ClimaticamenteController();
-        controller.openFXML();
-    }
+   
 
 }

@@ -44,7 +44,7 @@ public class CadaResiduoController implements Initializable {
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        cambiarPuntero(stage);
+        Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();
         stage.show();
     }
@@ -61,11 +61,7 @@ public class CadaResiduoController implements Initializable {
     }
 
 
-    public void cambiarPuntero(Stage stage) {
-        Image image = new Image("file:./res/img/puntero.png");
-        stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
-                image.getHeight() / 2));
-    }
+   
 
     private void abrirPdf(MouseEvent event) throws IOException, PdfException {
         System.out.println("buenas");
