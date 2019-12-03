@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HumedalesController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.ClimaticamenteController">
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
@@ -21,11 +21,6 @@
             </ImageView>
             <AnchorPane layoutX="15.0" layoutY="131.0" prefHeight="332.0" prefWidth="696.0" AnchorPane.bottomAnchor="257.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="131.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="400.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../imagenes/pp-humedales-ventana.png" />
-                     </image>
-                  </ImageView>
                   <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="JUSTIFY">
                      <children>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " wrappingWidth="264.13671875">
@@ -35,6 +30,11 @@
                         </Text>
                      </children>
                   </TextFlow>
+                  <ImageView fitHeight="269.0" fitWidth="270.0" layoutX="75.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/Ventanas%20individuales/CLIMATICAMENTE.png" />
+                     </image>
+                  </ImageView>
                </children>
             </AnchorPane>
             <AnchorPane layoutX="25.0" layoutY="459.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: #fff;">
@@ -90,12 +90,7 @@
                   </Button>
                </children>
             </AnchorPane>
-            <Label layoutX="252.0" layoutY="51.0" text="Paquete pedagógico" textFill="#0078bc">
-               <font>
-                  <Font name="Swis721 Cn BT Bold" size="32.0" />
-               </font>
-            </Label>
-            <Label layoutX="300.0" layoutY="91.0" text="Humedales" textFill="#0078bc">
+            <Label layoutX="251.0" layoutY="63.0" text="Climáticamente" textFill="#0078bc">
                <font>
                   <Font name="Swis721 Cn BT Bold" size="32.0" />
                </font>

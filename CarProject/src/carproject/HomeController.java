@@ -182,6 +182,84 @@ public class HomeController implements Initializable {
         controller.openFXML();
     }
 
+    @FXML
+    private void abrirCalendulita() throws IOException {
+        CalendulitaController controller=new CalendulitaController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirCambioClimatico() throws IOException {
+        CambioClimaticoController controller=new CambioClimaticoController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirCartillaDidactica() throws IOException {
+        CartillaDidacticaController controller=new CartillaDidacticaController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirCartillaSuper() throws IOException {
+        CartillaSuperController controller=new CartillaSuperController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirConcentreseFauna() throws IOException {
+        ConcentreseFaunaController controller=new ConcentreseFaunaController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirCuencaHidrogafica() throws IOException {
+        CuencaHidrogaficaController controller=new CuencaHidrogaficaController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirDigiPack() throws IOException {
+        DigiPackController controller=new DigiPackController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirElPaisaje() throws IOException {
+        ElPaisajeController controller=new ElPaisajeController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirEscaleraAmbiental() throws IOException {
+        EscaleraAmbientalController controller=new EscaleraAmbientalController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirLasCartas() throws IOException {
+        LasCartasController controller=new LasCartasController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirLegalizate() throws IOException {
+        LegalizateController controller=new LegalizateController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirMarthica() throws IOException {
+        MarthicaController controller=new MarthicaController();
+        controller.openFXML();
+    }
+
+    @FXML
+    private void abrirPortafolio() throws IOException {
+        PortafolioController controller=new PortafolioController();
+        controller.openFXML();
+    }
+
    
 
 }
