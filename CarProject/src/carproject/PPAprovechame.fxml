@@ -17,7 +17,7 @@
          <children>
             <ImageView fitHeight="673.0" fitWidth="760.0" layoutX="39.0" pickOnBounds="true">
                <image>
-                  <Image url="@../../../../Imagenes/FONDO-MARIPOSAS.jpg" />
+                  <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="112.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="536.6" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="112.20000000000005" AnchorPane.topAnchor="37.0">
@@ -42,7 +42,7 @@
                   </TextFlow>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="25.0" layoutY="459.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
+            <AnchorPane layoutX="112.0" layoutY="458.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
                <children>
                   <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#pruebaPdf" style="-fx-background-color: rgb(0,0,0,0);" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
@@ -63,7 +63,7 @@
                   </Label>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="252.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
+            <AnchorPane layoutX="319.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
                <children>
                   <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirJuego" style="-fx-background-color: rgb(0,0,0,0);" styleClass="btns" text="Juego" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
@@ -79,7 +79,7 @@
                   </Button>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="496.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
+            <AnchorPane layoutX="523.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
                <children>
                   <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirMultimedia" style="-fx-background-color: rgb(0,0,0,0);" styleClass="btns" text="Multimedia" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
