@@ -1,4 +1,4 @@
-    /*
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -66,10 +66,7 @@ public class PPHumedalesController implements Initializable {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
     }
-
     
-    
-   
     
     @FXML
     private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
@@ -83,26 +80,19 @@ public class PPHumedalesController implements Initializable {
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
     }
 
-     @FXML
-    private void pruebaPdf() throws URISyntaxException, IOException {
+    @FXML
+    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
         
         Desktop desktop = Desktop.getDesktop();
         
-        try {
-            String basePath = new File("").getAbsolutePath();
-            
-            if (basePath.substring(basePath.length()-5).equals("\\dist") ){
-                String aux = basePath.substring(0,basePath.length()-5);
-                basePath = aux;
-            }          
-            
-            basePath=basePath+"\\src\\pdf\\guiawet.pdf";
-            desktop.getDesktop().open(new java.io.File(basePath));
-            
-        } catch (IOException ex) {
-            Logger.getLogger(PPHumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-            
-        }         
+//        try {
+//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
+//        } catch (IOException ex) {
+//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
+//        } 
+        String ruta= "./src/pdf/guiawet.pdf";
+        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
+
     }
 
   

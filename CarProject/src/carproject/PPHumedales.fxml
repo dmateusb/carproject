@@ -10,22 +10,21 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HumedalesController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="720.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.PPMineriaResponsableController">
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="125.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="73.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="518.0" AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="72.0" AnchorPane.topAnchor="54.0">
                <image>
-                  <Image url="@../imagenes/CABEZOTE-CAR_03.jpg" />
+                  <Image url="@../imagenes/Cabezotes/PPMineriaResponsable.png" />
                </image>
             </ImageView>
             <AnchorPane layoutX="15.0" layoutY="131.0" prefHeight="332.0" prefWidth="696.0" AnchorPane.bottomAnchor="257.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="131.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="400.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="21.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/pp-humedales-ventana.png" />
-                     </image>
-                  </ImageView>
+                        <Image url="@../imagenes/Ventanas%20individuales/PP%20MINERÍA%20RESPONSABLE.png" />
+                     </image></ImageView>
                   <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="JUSTIFY">
                      <children>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " wrappingWidth="264.13671875">
@@ -39,7 +38,7 @@
             </AnchorPane>
             <AnchorPane layoutX="25.0" layoutY="459.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: #fff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: #fff;" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#pruebaPdf" style="-fx-background-color: #fff;" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -60,7 +59,7 @@
             </AnchorPane>
             <AnchorPane layoutX="252.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: Fff;" styleClass="btns" text="Juego" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirJuego" style="-fx-background-color: Fff;" styleClass="btns" text="Juego" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="60.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -76,7 +75,7 @@
             </AnchorPane>
             <AnchorPane layoutX="496.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ffff;">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirMultimedia" style="-fx-background-color: fff;" styleClass="btns" text="Multimedia" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <graphic>
                         <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -90,16 +89,6 @@
                   </Button>
                </children>
             </AnchorPane>
-            <Label layoutX="252.0" layoutY="51.0" text="Paquete pedagógico" textFill="#0078bc">
-               <font>
-                  <Font name="Swis721 Cn BT Bold" size="32.0" />
-               </font>
-            </Label>
-            <Label layoutX="300.0" layoutY="91.0" text="Humedales" textFill="#0078bc">
-               <font>
-                  <Font name="Swis721 Cn BT Bold" size="32.0" />
-               </font>
-            </Label>
          </children>
       </AnchorPane>
    </center>
