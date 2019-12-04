@@ -68,19 +68,16 @@ public class PPAprovechameController implements Initializable {
     }
     
     
-    @FXML
     private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
         Desktop desktop = Desktop.getDesktop();
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
     }
 
-    @FXML
     private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
          Desktop desktop = Desktop.getDesktop();
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
     }
 
-    @FXML
     private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
         
         Desktop desktop = Desktop.getDesktop();
@@ -94,6 +91,24 @@ public class PPAprovechameController implements Initializable {
         desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
 
     }
+
+    @FXML
+    private void abrirAfiche(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\src\\pdf\\Afiche aprovechamiento y movilización de madera.pdf");
+    }
+
+    @FXML
+    private void abrirCartilla(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\src\\pdf\\Cartilla aprovechamiento y movilización de madera.pdf");
+    }
+
+    @FXML
+    private void abriJingle(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\src\\Multimedia\\JINGLE_MADERA_CAR.mp3");
+        
+    }
+    
+    
 
   
     
