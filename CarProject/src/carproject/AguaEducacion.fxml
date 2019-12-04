@@ -15,14 +15,9 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.AguaEducacionController">
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="675.0" fitWidth="775.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../imagenes/personajes%20MARTHICA-03.png" />
-               </image>
-            </ImageView>
-            <AnchorPane layoutX="17.0" layoutY="189.0" prefHeight="312.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="175.0">
+            <AnchorPane layoutY="127.0" prefHeight="312.0" prefWidth="775.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="127.0">
                <children>
                   <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -31,7 +26,7 @@
                   </ImageView>
                   <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -40,16 +35,16 @@
                   </TextFlow>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane prefHeight="127.0" prefWidth="775.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/Cabezotes/PPAprovechamiento.png" />
+                        <Image url="@../imagenes/Cabezotes/AguaEducacion.png" />
                      </image>
                   </ImageView>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="194.0" layoutY="521.0" prefHeight="120.0" prefWidth="405.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="521.0">
+            <AnchorPane layoutX="114.0" layoutY="507.0" prefHeight="120.0" prefWidth="405.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="274.0" AnchorPane.topAnchor="507.0">
                <children>
                   <GridPane hgap="20.0" prefHeight="120.0" prefWidth="387.20000000000005" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columnConstraints>
@@ -61,45 +56,13 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
-                           <children>
-                              <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#abrirAfiche" prefHeight="120.0" prefWidth="129.6" style="-fx-background-color: rgb(0,0,0,0);" text="Afiche" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <graphic>
-                                    <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../imagenes/Iconos/text-document.png" />
-                                       </image>
-                                    </ImageView>
-                                 </graphic>
-                                 <font>
-                                    <Font name="System Bold" size="14.0" />
-                                 </font>
-                              </Button>
-                           </children>
-                        </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                            <children>
-                              <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#abrirCartilla" prefHeight="120.0" prefWidth="129.6" style="-fx-background-color: rgb(0,0,0,0);" text="Cartilla" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <Button fx:id="abrirPdf" contentDisplay="TOP" mnemonicParsing="false" onAction="#abrirCartilla" prefHeight="120.0" prefWidth="129.6" style="-fx-background-color: rgb(0,0,0,0);" text="Guía Wet" textFill="#0078bc" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <graphic>
                                     <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../imagenes/Iconos/text-document.png" />
-                                       </image>
-                                    </ImageView>
-                                 </graphic>
-                                 <font>
-                                    <Font name="System Bold" size="14.0" />
-                                 </font>
-                              </Button>
-                           </children>
-                        </AnchorPane>
-                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
-                           <children>
-                              <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#abriJingle" prefHeight="120.0" prefWidth="129.6" style="-fx-background-color: rgb(0,0,0,0);" text="Jingle" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <graphic>
-                                    <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../imagenes/Iconos/speaker.png" />
+                                          <Image url="@../imagenes/Iconos/text-document-dark.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
@@ -116,11 +79,16 @@
                   </GridPane>
                </children>
             </AnchorPane>
-            <Text fill="WHITE" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="#63a455" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
-                  <Font name="Swis721 BlkCn BT Black" size="18.0" />
+                  <Font name="Swis721 BlkCn BT Black" size="24.0" />
                </font>
             </Text>
+            <ImageView fitHeight="441.0" fitWidth="350.0" layoutX="424.0" layoutY="233.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/personajes%20MARTHICA-03.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </center>
