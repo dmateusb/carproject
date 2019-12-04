@@ -33,7 +33,6 @@
                         </Text>
                      </children>
                   </TextFlow>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="-75.0" pickOnBounds="true" preserveRatio="true" />
                </children>
             </AnchorPane>
             <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
