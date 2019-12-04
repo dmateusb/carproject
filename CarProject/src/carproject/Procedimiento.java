@@ -43,6 +43,8 @@ public class Procedimiento {
         }
     }
 
+    
+    
     public static Image retornarImagen(String ruta) {
 
         Desktop desktop = Desktop.getDesktop();

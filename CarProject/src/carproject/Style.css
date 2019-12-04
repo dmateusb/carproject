@@ -6,15 +6,7 @@ FontAwesomeIcon:hover{
 .btns:hover{
     -fx-cursor: hand;
 }
-.tab{
-    -fx-pref-width: 600px   ;
-    -fx-text-alignment: center;
-}
-.tab> .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
-    -fx-alignment: CENTER;
-     -fx-pref-width: 150.0;
-    -fx-text-fill: -fx-text-base-color;
-}
+
 /*
 .tab-header-aligment{
     -fx-alignment: CENTER;
@@ -30,4 +22,41 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 }
 .Text {
     -fx-font-family: Swiss 721 Condensed BT;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab-pane .tab
+{
+    -fx-background-color: #ffffff;
+
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #63a455;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #63a455;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
 }

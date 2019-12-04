@@ -68,19 +68,16 @@ public class PPBpaController implements Initializable {
     }
 
    
-    @FXML
     private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
         Desktop desktop = Desktop.getDesktop();
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
     }
 
-    @FXML
     private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
          Desktop desktop = Desktop.getDesktop();
         desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
     }
 
-    @FXML
     private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
         
         Desktop desktop = Desktop.getDesktop();
@@ -93,6 +90,11 @@ public class PPBpaController implements Initializable {
         String ruta= "./src/pdf/guiawet.pdf";
         desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
 
+    }
+
+    @FXML
+    private void abrirCuaderno(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\src\\pdf\\PP2BPA HP1 Cuaderno.pdf");
     }
 
   
