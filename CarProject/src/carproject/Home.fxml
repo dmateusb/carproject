@@ -18,7 +18,7 @@
          <children>
             <AnchorPane layoutY="224.0" prefHeight="4740.0" prefWidth="1280.0" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <AnchorPane layoutX="10.0" layoutY="179.0" minHeight="0.0" minWidth="0.0" prefHeight="4508.0" prefWidth="1200.0" AnchorPane.bottomAnchor="-4500.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="220.0">
+                  <AnchorPane layoutX="10.0" layoutY="179.0" minHeight="0.0" minWidth="0.0" prefHeight="4508.0" prefWidth="1200.0" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="220.0">
                      <children>
                         <ScrollPane fx:id="scrollfondo" fitToWidth="true" layoutX="7.0" layoutY="3.0" prefHeight="568.0" prefWidth="1200.0" style="-fx-background-color: #fff; -fx-vbar-policy: NEVER;" styleClass="accordion" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <content>
@@ -236,7 +236,11 @@
                                     </AnchorPane>
                                     <AnchorPane layoutY="2000.0" prefHeight="50.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2000.0">
                                        <children>
-                                          <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                          <ImageView pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../../../Desktop/1x/Mesa%20de%20trabajo%201.png" />
+                                             </image>
+                                          </ImageView>
                                        </children>
                                     </AnchorPane>
                                  </children>

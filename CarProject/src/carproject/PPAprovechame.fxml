@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -11,26 +8,22 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="718.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.PPAprovechameController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <center>
-      <AnchorPane prefHeight="674.0" prefWidth="774.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="673.0" fitWidth="760.0" layoutX="39.0" pickOnBounds="true">
+            <ImageView fitHeight="675.0" fitWidth="775.0" pickOnBounds="true">
                <image>
                   <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
-            <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="112.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="536.6" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="112.20000000000005" AnchorPane.topAnchor="37.0">
-               <image>
-                  <Image url="@../imagenes/Cabezotes/PPAprovechamiento.png" />
-               </image>
-            </ImageView>
-            <AnchorPane layoutX="40.0" layoutY="137.0" prefHeight="286.0" prefWidth="744.0" AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="137.0">
+            <AnchorPane layoutX="17.0" layoutY="189.0" prefHeight="312.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="175.0">
                <children>
                   <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Ventanas%20individuales/PP%20APROVECHAMIENTO%20Y%20MOVILIZACIÓN%20DE%20MADERA.png" />
-                     </image></ImageView>
+                     </image>
+                  </ImageView>
                   <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
                      <children>
                         <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
@@ -42,63 +35,16 @@
                   </TextFlow>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="112.0" layoutY="458.0" prefHeight="201.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
+            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#pruebaPdf" style="-fx-background-color: rgb(0,0,0,0);" styleClass="btns" text="Cartilla" textAlignment="JUSTIFY" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <graphic>
-                        <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../imagenes/text-document.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <font>
-                        <Font name="Swis721 Cn BT Bold" size="14.0" />
-                     </font>
-                  </Button>
-                  <Label layoutX="40.0" layoutY="-5.0" text="Contenido" textFill="WHITE">
-                     <font>
-                        <Font name="Swis721 Cn BT Bold" size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane layoutX="319.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
-               <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirJuego" style="-fx-background-color: rgb(0,0,0,0);" styleClass="btns" text="Juego" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <graphic>
-                        <ImageView fitHeight="60.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../imagenes/text-document.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <font>
-                        <Font name="Swis721 Cn BT Bold" size="14.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane layoutX="523.0" layoutY="459.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,0,0);">
-               <children>
-                  <Button contentDisplay="TOP" mnemonicParsing="false" onMouseClicked="#abrirMultimedia" style="-fx-background-color: rgb(0,0,0,0);" styleClass="btns" text="Multimedia" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <graphic>
-                        <ImageView fitHeight="100.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../imagenes/speaker.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <font>
-                        <Font name="Swis721 Cn BT Bold" size="14.0" />
-                     </font>
-                  </Button>
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/Cabezotes/PPAprovechamiento.png" />
+                     </image>
+                  </ImageView>
                </children>
             </AnchorPane>
          </children>
-         <BorderPane.margin>
-            <Insets />
-         </BorderPane.margin>
       </AnchorPane>
    </center>
 </BorderPane>
