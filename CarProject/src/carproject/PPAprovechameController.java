@@ -104,7 +104,7 @@ public class PPAprovechameController implements Initializable {
 
     @FXML
     private void abriJingle(ActionEvent event) {
-        Procedimiento.cargarArchivo("\\src\\Multimedia\\JINGLE_MADERA_CAR.mp3");
+        Procedimiento.cargarArchivo("\\src\\Multimedia\\JINGLE MADERA CAR.mp3");
         
     }
     
