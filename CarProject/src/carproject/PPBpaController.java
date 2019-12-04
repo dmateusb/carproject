@@ -53,7 +53,6 @@ public class PPBpaController implements Initializable {
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();
         stage.show();
     }

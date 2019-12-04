@@ -58,10 +58,5 @@ public class Procedimiento {
         return new Image("file:" + basePath);
     }
 
-    public static void cambiarPuntero(Stage stage) {
-        Image image = Procedimiento.retornarImagen("\\src\\imagenes\\puntero.png");
-        stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
-                image.getHeight() / 2));
-    }
     
 }
