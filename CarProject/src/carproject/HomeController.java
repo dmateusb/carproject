@@ -66,17 +66,17 @@ public class HomeController implements Initializable {
     }
 
     public void openFXML() throws IOException {
-        this.stage.initStyle(StageStyle.DECORATED);
+        HomeController.stage.initStyle(StageStyle.DECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
-        this.stage.setScene(scene);
+        HomeController.stage.setScene(scene);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
-        this.stage.setX(bounds.getMinX());
-        this.stage.setY(bounds.getMinY());
-        this.stage.setWidth(bounds.getWidth());
-        this.stage.setHeight(bounds.getHeight());
-        this.stage.show();
+        HomeController.stage.setX(bounds.getMinX());
+        HomeController.stage.setY(bounds.getMinY());
+        HomeController.stage.setWidth(bounds.getWidth());
+        HomeController.stage.setHeight(bounds.getHeight());
+        HomeController.stage.show();
     }
 
    
