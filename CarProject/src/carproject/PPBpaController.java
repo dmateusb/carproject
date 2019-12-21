@@ -23,7 +23,9 @@ import javafx.scene.ImageCursor;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
@@ -37,7 +39,8 @@ import org.jpedal.exception.PdfException;
  * @author david
  */
 public class PPBpaController implements Initializable {
-   
+
+    
     
     /**
      * Initializes the controller class.
@@ -56,46 +59,27 @@ public class PPBpaController implements Initializable {
         stage.centerOnScreen();
         stage.show();
     }
-    
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
-    }
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
-    }
-
-   
-    private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
-        Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
-    }
-
-    private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
-         Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
-    }
-
-    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
-        
-        Desktop desktop = Desktop.getDesktop();
-        
-//        try {
-//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-//        } catch (IOException ex) {
-//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-//        } 
-        String ruta= "./src/pdf/guiawet.pdf";
-        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
-
-    }
 
     @FXML
     private void abrirCuaderno(ActionEvent event) {
-        Procedimiento.cargarArchivo("\\src\\pdf\\PP2BPA HP1 Cuaderno.pdf");
+        Procedimiento.cargarArchivo("\\PP BPA SUBSECTOR CAFETERO\\AGENDA\\PP2BPA HP1 Cuaderno.pdf");
     }
 
-  
+    @FXML
+    private void abrirPortada(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP BPA SUBSECTOR CAFETERO\\AGENDA\\PP2BPA HP1 Cuaderno portada.pdf");
+    }
+
+    @FXML
+    private void abrirPlegable(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP BPA SUBSECTOR CAFETERO\\PLEGABLE\\PP2BPA HP3 Plegable sombrio.pdf");
+    }
+
+    @FXML
+    private void abrirMultimedia(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP BPA SUBSECTOR CAFETERO\\MULTIMEDIA\\PP2 BPA HP2 Multimedia sombrio.pdf");
+    }
+
+    
     
 }

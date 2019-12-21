@@ -5,21 +5,9 @@
  */
 package carproject;
 
-import com.sun.javafx.cursor.CursorFrame;
-import com.sun.javafx.scene.paint.GradientUtils.Point;
-import java.awt.MouseInfo;
-import java.awt.Toolkit;
-import java.awt.geom.Rectangle2D;
+import java.io.File;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Cursor;
-import javafx.scene.ImageCursor;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.image.Image;
-import javafx.stage.Screen;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 /**
  *
@@ -27,9 +15,13 @@ import javafx.stage.StageStyle;
  */
 public class CarProject extends Application {
 
+
     @Override
     public void start(Stage stage) throws Exception {
         HomeController controller= new HomeController();
+        String path=new File("").getAbsolutePath();
+        String ruta="\\src\\imagenes\\cabezote.jpg";
+        
         controller.setStage(stage);
         controller.openFXML();
     }
@@ -40,6 +32,9 @@ public class CarProject extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+    
+    
     
    
 

@@ -1,3 +1,24 @@
+.scroll-pane, .scroll-pane.corner{
+    -fx-background-color:transparent;
+}
+.mylistview .scroll-bar:horizontal ,
+.mylistview  .scroll-bar:vertical{
+    -fx-background-color:#147DC1;
+ 
+}
+.mylistview  .corner{
+    -fx-background-color:#147DC1;
+ 
+}
+
+.mylistview .scroll-bar:horizontal .thumb,
+.mylistview .scroll-bar:vertical .thumb {
+    -fx-background-color:#63a455
+ 
+}
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
 
 FontAwesomeIcon:hover{
     -fx-cursor: hand;

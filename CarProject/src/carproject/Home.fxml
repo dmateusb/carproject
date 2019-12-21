@@ -18,9 +18,9 @@
          <children>
             <AnchorPane layoutY="224.0" prefHeight="4740.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <AnchorPane layoutX="10.0" layoutY="179.0" minHeight="0.0" minWidth="0.0" prefHeight="4508.0" prefWidth="1200.0" AnchorPane.bottomAnchor="-4500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="220.0">
+                  <AnchorPane layoutX="10.0" layoutY="179.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="220.0">
                      <children>
-                        <ScrollPane fx:id="scrollfondo" fitToWidth="true" layoutX="7.0" layoutY="3.0" prefHeight="568.0" prefWidth="1200.0" style="-fx-background-color: #fff; -fx-hbar-policy: NEVER;" styleClass="accordion" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <ScrollPane fx:id="scrollfondo" fitToWidth="true" layoutX="7.0" layoutY="3.0" style="-fx-background-color: #fff; -fx-hbar-policy: NEVER;" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <content>
                               <AnchorPane style="-fx-background-color: #fff;">
                                  <children>
@@ -46,7 +46,7 @@
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="@../imagenes/Menu/PPSistemasProduccion.png" />
+                                                                  <Image url="@../imagenes/Menu/PPPromociónLegalidad.png" />
                                                                </image>
                                                             </ImageView>
                                                          </graphic></Button>
@@ -60,7 +60,7 @@
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="@../imagenes/Menu/PP%20Aprovechamiento.png" />
+                                                                  <Image url="@../imagenes/Menu/PPSistemasProduccionProcas.png" />
                                                                </image>
                                                             </ImageView>
                                                          </graphic></Button>
@@ -104,7 +104,19 @@
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                                    <children>
-                                                      <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#abrirPPMetodosParticipacion" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                      <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#abrirPPHumedales" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <graphic>
+                                                            <ImageView pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../imagenes/Menu/PPHumedales.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic></Button>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                                   <children>
+                                                      <Button layoutX="76.0" layoutY="-20.0" mnemonicParsing="false" onAction="#abrirPPMetodosParticipacion" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
@@ -114,9 +126,9 @@
                                                          </graphic></Button>
                                                    </children>
                                                 </AnchorPane>
-                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                                    <children>
-                                                      <Button layoutX="76.0" layoutY="-20.0" mnemonicParsing="false" onAction="#abrirPPMineria" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                      <Button layoutX="-18.0" layoutY="-19.0" mnemonicParsing="false" onAction="#abrirPPMineria" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
@@ -126,25 +138,13 @@
                                                          </graphic></Button>
                                                    </children>
                                                 </AnchorPane>
-                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                                    <children>
-                                                      <Button layoutX="-18.0" layoutY="-19.0" mnemonicParsing="false" onAction="#abrirPPParamos" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                      <Button layoutX="-76.0" layoutY="31.0" mnemonicParsing="false" onAction="#abrirPPParamos" onMouseClicked="#abrirPPParamos" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
                                                                   <Image url="@../imagenes/Menu/PPParamos.png" />
-                                                               </image>
-                                                            </ImageView>
-                                                         </graphic></Button>
-                                                   </children>
-                                                </AnchorPane>
-                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-                                                   <children>
-                                                      <Button layoutX="-76.0" layoutY="31.0" mnemonicParsing="false" onAction="#abrirPPPomcas" onMouseClicked="#abrirPPParamos" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                                         <graphic>
-                                                            <ImageView pickOnBounds="true" preserveRatio="true">
-                                                               <image>
-                                                                  <Image url="@../imagenes/Menu/PPPomcas.png" />
                                                                </image>
                                                             </ImageView>
                                                          </graphic></Button>
@@ -156,7 +156,7 @@
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="@../imagenes/Menu/PPSistemasProduccionProcas.png" />
+                                                                  <Image url="@../imagenes/Menu/PPSistemasProduccion.png" />
                                                                </image>
                                                             </ImageView>
                                                          </graphic></Button>
@@ -164,11 +164,11 @@
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                                                    <children>
-                                                      <Button layoutX="26.0" layoutY="13.0" mnemonicParsing="false" onAction="#abrirPPPromocionLegalidad" style="-fx-background-color: #fff;">
+                                                      <Button layoutX="26.0" layoutY="13.0" mnemonicParsing="false" onAction="#abrirPPPomcas" style="-fx-background-color: #fff;">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="@../imagenes/Menu/PPPromociónLegalidad.png" />
+                                                                  <Image url="@../imagenes/Menu/PPPomcas.png" />
                                                                </image>
                                                             </ImageView>
                                                          </graphic></Button>
@@ -188,11 +188,11 @@
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                                    <children>
-                                                      <Button mnemonicParsing="false" onAction="#abrirPPAprovechame" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                      <Button mnemonicParsing="false" onAction="#abrirPPAprovechame" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="@../imagenes/Menu/PP%20Aprovechamiento.png" />
+                                                                  <Image url="@../imagenes/Menu/PPAprovechamiento.png" />
                                                                </image>
                                                             </ImageView>
                                                          </graphic>
