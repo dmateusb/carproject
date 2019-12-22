@@ -8,6 +8,7 @@ package carproject;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -31,9 +32,8 @@ public class PPFaunaController implements Initializable {
     /**
      * Initializes the controller class.
      */
-    
-   public void openFXML() throws IOException {
-       System.out.println("entra");
+    public void openFXML() throws IOException {
+        System.out.println("entra");
         FXMLLoader loader = new FXMLLoader(getClass().getResource("PPFauna.fxml"));
         Parent root = (BorderPane) loader.load(getClass().getResource("PPFauna.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
@@ -42,17 +42,49 @@ public class PPFaunaController implements Initializable {
         stage.centerOnScreen();
         stage.show();
     }
-   
-   
-   
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
-    
+    }
+
     @FXML
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
+    private void abrirBosqueSeco(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\CUENTOS\\bosque_seco-Humedo_curvas(FILEminimizer) (1).pdf");
+    }
+
+    @FXML
+    private void abrirParamo(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\CUENTOS\\paramo_curvas(FILEminimizer) (1).pdf");
+
+    }
+
+    @FXML
+    private void abrirBosqueAndino(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\CUENTOS\\bosque_andino_curvas(FILEminimizer) (1).pdf");
+    }
+
+    @FXML
+    private void abrirDiseñoCaja(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\DOMINO\\DISEÑO CAJA V1 ENERO 13.pdf");
+
+    }
+
+    @FXML
+    private void abrirDominoAdultos(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\DOMINO\\DOMINÓ ADULTOS.pdf");
+
+    }
+
+    @FXML
+    private void abrirDominoNinos(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\DOMINO\\DOMINÓ NIÑOS.pdf");
+
+    }
+
+    @FXML
+    private void abrirPendonInfografia(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP FAUNA EN EL TERRITORIO\\INFOGRAMA\\PENDÓN INFOGRAFIA.pdf");
+
     }
 }

@@ -57,44 +57,104 @@ public class PPGestionAmbientalController implements Initializable {
         stage.show();
     }
     
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
-    }
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
-    }
 
-    
-    
     @FXML
-    private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
-        Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
+    private void abrirAguaMarina(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\aguamarina.pdf");
     }
 
     @FXML
-    private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
-         Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
+    private void abrirAmarillo(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Amarillo.pdf");
+   
     }
 
     @FXML
-    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
-        
-        Desktop desktop = Desktop.getDesktop();
-        
-//        try {
-//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-//        } catch (IOException ex) {
-//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-//        } 
-        String ruta= "./src/pdf/guiawet.pdf";
-        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
+    private void abrirBaraja(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\baraja.pdf");
+   
+    }
+
+    @FXML
+    private void abrirCajaBaraja(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Caja_Baraja.pdf");
+   
+    }
+
+    @FXML
+    private void abrirFucsia(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Fucsia.pdf");
+   
+    }
+
+    @FXML
+    private void abrirGris(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\gris.pdf");
+   
+    }
+
+    @FXML
+    private void abrirInstructivo(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\instructivo_baraja.pdf");
+   
+    }
+
+    @FXML
+    private void abrirNaranja(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Naranja.pdf");
+   
+    }
+
+    @FXML
+    private void abrirRetiro(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Retiro.pdf");
+   
+    }
+
+    @FXML
+    private void abrirRojo(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\rojo.pdf");
+   
+    }
+
+    @FXML
+    private void abrirVerdeClaro(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Verde_claro.pdf");
+   
+    }
+
+    @FXML
+    private void abrirVerdeOscuro(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Verde_oscuro.pdf");
+   
+    }
+
+    @FXML
+    private void abrirAzulOscuro(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Azul Oscuro.pdf");
+   
+    }
+
+    @FXML
+    private void abrirAzul(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\CONTANDO HISTORIAS\\Azul.pdf");
 
     }
 
-  
-    
+    @FXML
+    private void abrirCajaMochila(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\MOCHILA COMUNITARIA\\Caja_Mochila.pdf");
+    }
+
+    @FXML
+    private void abrirCartasMochila(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\MOCHILA COMUNITARIA\\Cartas_Mochila.pdf");
+    }
+
+    @FXML
+    private void abrirInstructivoMochila(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP GESTIÓN AMBIENTAL PARTICIPATIVA\\MOCHILA COMUNITARIA\\instructivo_mochila.pdf");
+    }
+
+
 }

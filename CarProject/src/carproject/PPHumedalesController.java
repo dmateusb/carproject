@@ -56,44 +56,23 @@ public class PPHumedalesController implements Initializable {
         stage.centerOnScreen();
         stage.show();
     }
-    
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
-    }
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
-    }
-    
-    
+
     @FXML
-    private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
-        Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
+    private void abrirCartilla(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP HUMEDALES\\CARTILLA\\PP1HUMEDALES HP1 Cartilla infantil.pdf");
     }
 
     @FXML
-    private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
-         Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
+    private void abrirJuego(ActionEvent event) {
+        Procedimiento.cargarArchivo("");
     }
 
     @FXML
-    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
-        
-        Desktop desktop = Desktop.getDesktop();
-        
-//        try {
-//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-//        } catch (IOException ex) {
-//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-//        } 
-        String ruta= "./src/pdf/guiawet.pdf";
-        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
-
+    private void abrirMultimedia(ActionEvent event) {
+        Procedimiento.cargarArchivo("");
     }
 
-  
+    
+    
     
 }

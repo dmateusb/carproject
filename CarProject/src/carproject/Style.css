@@ -1,6 +1,9 @@
 .scroll-pane, .scroll-pane.corner{
     -fx-background-color:transparent;
 }
+.scroll-pane{
+    -fx-hbar-policy:never;
+}
 .mylistview .scroll-bar:horizontal ,
 .mylistview  .scroll-bar:vertical{
     -fx-background-color:#147DC1;
