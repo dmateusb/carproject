@@ -42,6 +42,7 @@ public class CadaResiduoController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("CadaResiduo.fxml"));
         Parent root = (BorderPane) loader.load(getClass().getResource("CadaResiduo.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
+        stage.setResizable(false);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.centerOnScreen();

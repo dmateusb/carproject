@@ -40,6 +40,7 @@ public class DigiPackController implements Initializable {
         Parent root = (BorderPane) loader.load(getClass().getResource("DigiPack.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
+        stage.setResizable(false);
         stage.setScene(scene);
         //Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();

@@ -43,6 +43,7 @@ public class PPSistemasProduccionController implements Initializable {
         Parent root = (BorderPane) loader.load(getClass().getResource("PPSistemasProduccion.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.show();

@@ -69,6 +69,7 @@ public class HomeController implements Initializable {
         HomeController.stage.initStyle(StageStyle.DECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
+        HomeController.stage.setResizable(false);
         HomeController.stage.setScene(scene);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();

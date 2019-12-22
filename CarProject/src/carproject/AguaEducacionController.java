@@ -47,6 +47,7 @@ public class AguaEducacionController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("AguaEducacion.fxml"));
         Parent root = (BorderPane) loader.load(getClass().getResource("AguaEducacion.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
+        stage.setResizable(false);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.centerOnScreen();

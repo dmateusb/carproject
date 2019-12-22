@@ -40,6 +40,7 @@ public class LasCartasController implements Initializable {
         Parent root = (BorderPane) loader.load(getClass().getResource("LasCartas.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
+        stage.setResizable(false);
         stage.setScene(scene);
         //Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();

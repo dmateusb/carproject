@@ -40,6 +40,7 @@ public class CartillaDidacticaController implements Initializable {
         Parent root = (BorderPane) loader.load(getClass().getResource("CartillaDidactica.fxml").openStream());
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
+        stage.setResizable(false);
         stage.setScene(scene);
         //Procedimiento.cambiarPuntero(stage);
         stage.centerOnScreen();
