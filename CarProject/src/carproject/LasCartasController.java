@@ -23,7 +23,7 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class LasCartasController implements Initializable {
+public class LasCartasController extends VentanasIndividuales implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -34,18 +34,6 @@ public class LasCartasController implements Initializable {
     }  
 
          
-
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("LasCartas.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("LasCartas.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        //Procedimiento.cambiarPuntero(stage);
-        stage.centerOnScreen();
-        stage.show();
-    }
 
   
     

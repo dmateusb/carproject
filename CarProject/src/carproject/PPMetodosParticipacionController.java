@@ -36,7 +36,7 @@ import org.jpedal.exception.PdfException;
  *
  * @author david
  */
-public class PPMetodosParticipacionController implements Initializable {
+public class PPMetodosParticipacionController extends VentanasIndividuales implements Initializable {
    
     
     /**
@@ -47,16 +47,6 @@ public class PPMetodosParticipacionController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPMetodosParticipacion.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPMetodosParticipacion.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
 
     @FXML
     private void abrirPendon(ActionEvent event) {

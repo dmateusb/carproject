@@ -23,7 +23,7 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class MarthicaController implements Initializable {
+public class MarthicaController extends VentanasIndividuales implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -35,17 +35,7 @@ public class MarthicaController implements Initializable {
 
          
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Marthica.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("Marthica.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        //Procedimiento.cambiarPuntero(stage);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
 
   
     

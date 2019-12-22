@@ -5,27 +5,18 @@
  */
 package carproject;
 
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.ImageCursor;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
-import javafx.scene.control.TabPane;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -62,7 +53,7 @@ public class HomeController implements Initializable {
     @FXML
     private void abrirPPHumedales() throws IOException {
         PPHumedalesController controller = new PPHumedalesController();
-        controller.openFXML();
+        controller.openFXML("PPHumedales");
     }
 
     public void openFXML() throws IOException {
@@ -99,28 +90,28 @@ public class HomeController implements Initializable {
     @FXML
     private void abrirPPFauna() throws IOException {
         PPFaunaController controller = new PPFaunaController();
-        controller.openFXML();
+        controller.openFXML("PPFauna");
     }
 
     @FXML
     private void abrirPPSistemas() throws IOException {
         PPSistemasProduccionController controller = new PPSistemasProduccionController();
-        controller.openFXML();
+        controller.openFXML("PPSistemasProduccion");
     }
     @FXML
     private void abrirClimaticamente() throws IOException {
         ClimaticamenteController controller = new ClimaticamenteController();
-        controller.openFXML();
+        controller.openFXML("Climaticamente");
     }
     @FXML
     private void abrirPPAprovechame() throws IOException {
         PPAprovechameController controller = new PPAprovechameController();
-        controller.openFXML();
+        controller.openFXML("PPAprovechame1");
     }
     @FXML
     private void abrirPPBpa() throws IOException {
         PPBpaController controller = new PPBpaController();
-        controller.openFXML();
+        controller.openFXML("PPBpa");
     }
     @FXML
     private void abrirPPBuenasPracticas() throws IOException {
@@ -131,133 +122,133 @@ public class HomeController implements Initializable {
     @FXML
     private void abrirPPGestionAmbiental() throws IOException {
         PPGestionAmbientalController controller = new PPGestionAmbientalController();
-        controller.openFXML();
+        controller.openFXML("PPGestionAmbiental");
     }
     @FXML
     private void abrirPPMetodosParticipacion() throws IOException {
         PPMetodosParticipacionController controller = new PPMetodosParticipacionController();
-        controller.openFXML();
+        controller.openFXML("PPMetodosParticipacion");
     }
 
     @FXML
     private void abrirPPMineria() throws IOException {
         PPMineriaResponsableController controller = new PPMineriaResponsableController();
-        controller.openFXML();
+        controller.openFXML("PPMineriaResponsable");
     }
 
     @FXML
     private void abrirPPParamos() throws IOException {
         PPParamosController controller = new PPParamosController();
-        controller.openFXML();
+        controller.openFXML("PPParamos");
     }
 
     @FXML
     private void abrirPPPomcas() throws IOException {
         PPPomcasController controller = new PPPomcasController();
-        controller.openFXML();
+        controller.openFXML("PPPomcas");
     }
 
     @FXML
     private void abrirPPPromocionLegalidad() throws IOException {
         PPPromocionLegalidadController controller = new PPPromocionLegalidadController();
-        controller.openFXML();
+        controller.openFXML("PPPromocionLegalidad");
     }
 
     @FXML
     private void abrirPPSistemasProduccionProcas() throws IOException {
         PPSistemasProcasController controller = new PPSistemasProcasController();
-        controller.openFXML();
+        controller.openFXML("PPSistemasProcas");
     }
 
     @FXML
     private void abrirAguaEducacion() throws IOException {
         System.out.println("entra");
         AguaEducacionController controller=new AguaEducacionController();
-        controller.openFXML();
+        controller.openFXML("AguaEducacion");
     }
 
     @FXML
     private void abrirCadaResiduo() throws IOException {
         CadaResiduoController controller=new CadaResiduoController();
-        controller.openFXML();
+        controller.openFXML("CadaResiduo");
     }
 
     @FXML
     private void abrirCalendulita() throws IOException {
         CalendulitaController controller=new CalendulitaController();
-        controller.openFXML();
+        controller.openFXML("Calendulita");
     }
 
     @FXML
     private void abrirCambioClimatico() throws IOException {
         CambioClimaticoController controller=new CambioClimaticoController();
-        controller.openFXML();
+        controller.openFXML("CambioClimatico");
     }
 
     @FXML
     private void abrirCartillaDidactica() throws IOException {
         CartillaDidacticaController controller=new CartillaDidacticaController();
-        controller.openFXML();
+        controller.openFXML("CartillaDidactica");
     }
 
     @FXML
     private void abrirCartillaSuper() throws IOException {
         CartillaSuperController controller=new CartillaSuperController();
-        controller.openFXML();
+        controller.openFXML("CartillaSuper");
     }
 
     @FXML
     private void abrirConcentreseFauna() throws IOException {
         ConcentreseFaunaController controller=new ConcentreseFaunaController();
-        controller.openFXML();
+        controller.openFXML("ConcentreseFauna");
     }
 
     @FXML
     private void abrirCuencaHidrogafica() throws IOException {
         CuencaHidrogaficaController controller=new CuencaHidrogaficaController();
-        controller.openFXML();
+        controller.openFXML("CuencaHidrogafica");
     }
 
     @FXML
     private void abrirDigiPack() throws IOException {
         DigiPackController controller=new DigiPackController();
-        controller.openFXML();
+        controller.openFXML("DigiPack");
     }
 
     @FXML
     private void abrirElPaisaje() throws IOException {
         ElPaisajeController controller=new ElPaisajeController();
-        controller.openFXML();
+        controller.openFXML("ElPaisaje");
     }
 
     @FXML
     private void abrirEscaleraAmbiental() throws IOException {
         EscaleraAmbientalController controller=new EscaleraAmbientalController();
-        controller.openFXML();
+        controller.openFXML("EscaleraAmbiental");
     }
 
     @FXML
     private void abrirLasCartas() throws IOException {
         LasCartasController controller=new LasCartasController();
-        controller.openFXML();
+        controller.openFXML("LasCartas");
     }
 
     @FXML
     private void abrirLegalizate() throws IOException {
         LegalizateController controller=new LegalizateController();
-        controller.openFXML();
+        controller.openFXML("Legalizate");
     }
 
     @FXML
     private void abrirMarthica() throws IOException {
         MarthicaController controller=new MarthicaController();
-        controller.openFXML();
+        controller.openFXML("Marthica");
     }
 
     @FXML
     private void abrirPortafolio() throws IOException {
         PortafolioController controller=new PortafolioController();
-        controller.openFXML();
+        controller.openFXML("Portafolio");
     }
 
    

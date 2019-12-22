@@ -40,79 +40,96 @@ public class PPBuenasPracticasController implements Initializable {
         Stage stage = new Stage(StageStyle.DECORATED);
         Scene scene = new Scene(root);
         stage.setResizable(false);
+        stage.sizeToScene();
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.show();
     }
-    
+    @FXML
     private void abrirCaja(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\BINGO\\BINGO CAJA.pdf");
     }
-
+    @FXML
     private void abrirCarton(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\BINGO\\BINGO CARTON.pdf");
     }
+    @FXML
 
     private void abrirInstructivo(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\BINGO\\BINGO INSTRUCTIVO.pdf");
     }
+    @FXML
 
     private void abrirTablero(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\BINGO\\BINGO TABLERO CONTROL.pdf");
     }
+    @FXML
 
     private void abrirTableroPuntosRana(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TABLERO PUNTOS RANA.pdf");
     }
+    @FXML
 
     private void abrirTableroInstructivo(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TABLERO INSTRUCTIVO.pdf");
     }
+    @FXML
 
     private void abrirTapaRana(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TAPARANA.pdf");
     }
+    @FXML
 
     private void abrirTarjetasBombillos(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASBOMBILLO.pdf");
     }
+    @FXML
 
     private void abrirTarjetasCamara(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASCAMARA.pdf");
     }
-    
+        @FXML
+
 
     private void abrirTarjetasCerebro(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASCEREBRO.pdf");
     }
+    @FXML
 
     private void abrirTarjetasEngranaje(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASENGRANAJE.pdf");
     }
+    @FXML
 
     private void abrirTarjetasFicha(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASFICHA.pdf");
     }
+    @FXML
 
     private void abrirTarjetasGrupo(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASGRUPO.pdf");
     }
+    @FXML
 
     private void abrirTarjetasLibro(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASLIBRO.pdf");
     }
+    @FXML
 
     private void abrirTarjetasPersonas(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASPERSONAS.pdf");
     }
+    @FXML
 
     private void abrirTarjetasRana(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Gestionemos conocimiento\\TARJETASRANA.pdf");
     }
+    @FXML
 
     private void abrirRotulos(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Señalización\\Rotulos.pdf");
     }
+    @FXML
 
     private void abrirStickersCaja(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\Señalización\\Stickers caja.pdf");

@@ -73,7 +73,7 @@
                                                    <children>
                                                       <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                                          <children>
-                                                            <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirCarton" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Carton" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
+                                                            <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Carton" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
                                                                   <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                                                                      <image>

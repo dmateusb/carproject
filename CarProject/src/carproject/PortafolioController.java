@@ -10,10 +10,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.ImageCursor;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -23,7 +21,7 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class PortafolioController implements Initializable {
+public class PortafolioController extends VentanasIndividuales implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -35,17 +33,7 @@ public class PortafolioController implements Initializable {
 
          
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Portafolio.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("Portafolio.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        //Procedimiento.cambiarPuntero(stage);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
 
   
     

@@ -27,22 +27,11 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class PPFaunaController implements Initializable {
+public class PPFaunaController extends VentanasIndividuales implements Initializable {
 
     /**
      * Initializes the controller class.
      */
-    public void openFXML() throws IOException {
-        System.out.println("entra");
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPFauna.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPFauna.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

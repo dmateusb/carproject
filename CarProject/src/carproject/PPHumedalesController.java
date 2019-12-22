@@ -23,7 +23,7 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class PPHumedalesController implements Initializable {
+public class PPHumedalesController extends VentanasIndividuales implements Initializable {
    
     
     /**
@@ -34,16 +34,7 @@ public class PPHumedalesController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPHumedales.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPHumedales.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
 
     @FXML
     private void abrirCartilla(ActionEvent event) {

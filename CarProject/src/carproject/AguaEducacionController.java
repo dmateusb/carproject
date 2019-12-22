@@ -30,7 +30,7 @@ import org.jpedal.exception.PdfException;
  *
  * @author david
  */
-public class AguaEducacionController implements Initializable {
+public class AguaEducacionController extends VentanasIndividuales implements Initializable {
 
     @FXML
     private Button abrirPdf;
@@ -43,16 +43,7 @@ public class AguaEducacionController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("AguaEducacion.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("AguaEducacion.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        stage.setResizable(false);
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
 
     private void min(MouseEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

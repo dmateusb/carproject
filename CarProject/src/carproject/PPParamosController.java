@@ -5,21 +5,15 @@
  */
 package carproject;
 
-import java.net.URI;
-import java.awt.Desktop;
-import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -29,7 +23,7 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class PPParamosController implements Initializable {
+public class PPParamosController extends VentanasIndividuales implements Initializable {
    
     
     /**
@@ -40,16 +34,7 @@ public class PPParamosController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPParamos.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPParamos.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
 
     @FXML
     private void abrirCartillaAprendeCon(ActionEvent event) {

@@ -23,7 +23,7 @@ import javafx.stage.StageStyle;
  *
  * @author david
  */
-public class PPAprovechameController implements Initializable {
+public class PPAprovechameController extends VentanasIndividuales implements Initializable {
    
     
     /**
@@ -33,18 +33,6 @@ public class PPAprovechameController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }
-
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPAprovechame1.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPAprovechame1.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
-    
 
 
 

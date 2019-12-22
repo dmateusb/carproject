@@ -12,11 +12,9 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.ImageCursor;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -28,7 +26,7 @@ import org.jpedal.exception.PdfException;
  *
  * @author david
  */
-public class PPSistemasProduccionController implements Initializable {
+public class PPSistemasProduccionController extends VentanasIndividuales implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -38,16 +36,7 @@ public class PPSistemasProduccionController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPSistemasProduccion.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPSistemasProduccion.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
 
     private void min(MouseEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

@@ -36,7 +36,7 @@ import org.jpedal.exception.PdfException;
  *
  * @author david
  */
-public class PPGestionAmbientalController implements Initializable {
+public class PPGestionAmbientalController extends  VentanasIndividuales implements Initializable {
    
     
     /**
@@ -47,16 +47,7 @@ public class PPGestionAmbientalController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPGestionAmbiental.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPGestionAmbiental.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
+
     
 
     @FXML
