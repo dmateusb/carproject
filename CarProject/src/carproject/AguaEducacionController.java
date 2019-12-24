@@ -32,8 +32,6 @@ import org.jpedal.exception.PdfException;
  */
 public class AguaEducacionController extends VentanasIndividuales implements Initializable {
 
-    @FXML
-    private Button abrirPdf;
 
     /**
      * Initializes the controller class.
@@ -43,24 +41,12 @@ public class AguaEducacionController extends VentanasIndividuales implements Ini
         // TODO
     }
 
-
-
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
-    }
-
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
-    }
-
     @FXML
-    private void abrirCartilla(ActionEvent event) {
-        Procedimiento.cargarArchivo("\\src\\pdf\\guiawet.pdf");
-        
-        
+    private void abrirGuia(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\AGUA Y EDUCACIÓN GUIA PARA DOCENTES (WET)\\GUIA WET.pdf");
     }
+
+
 
 
    
