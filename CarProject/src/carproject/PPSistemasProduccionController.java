@@ -9,6 +9,7 @@ import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -36,22 +37,65 @@ public class PPSistemasProduccionController extends VentanasIndividuales impleme
         // TODO
     }
 
-
-
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
+    @FXML
+    private void abrirAfiche(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\AFICHE TODO TIENE SU MOMENTO\\Afiche Lo mejor para su familia.pdf");
     }
 
     @FXML
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
+    private void abrirCartilla(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\CARTILLA LA HUERTA DE PANCOGER\\Cartilla Pancoger.pdf");
     }
 
-    private void abrirPdf(MouseEvent event) throws IOException, PdfException {
-        System.out.println("buenas");
-        Desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
+    @FXML
+    private void abrirTableroPlanificador(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\1tablero_planificador.pdf");
     }
 
+    @FXML
+    private void abrirFichasInformativas(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\2fichas_informativas.pdf");
+    }
+
+    @FXML
+    private void abririFichasCultivos(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\3fichas_cultivos.pdf");
+    }
+
+    @FXML
+    private void abrirFichasCompartirVerdes(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\4fichas_compartir_verde.pdf");
+    }
+
+    @FXML
+    private void abrirRetiroVerde(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\5retiro_fichas_compartir_verde.pdf");
+    }
+
+    @FXML
+    private void abrirFichaCompartirAzul(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\6fichas_compartir_azul.pdf");
+    }
+
+    @FXML
+    private void abrirRetiroAzul(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\7retiro_fichas_compartir_azul.pdf");
+    }
+
+    @FXML
+    private void abrirFichasGris(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\8ficha_compartir_gris.pdf");
+    }
+
+    @FXML
+    private void abrirRetiroGris(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\9retiro_ficha_compartir_gris.pdf");
+    }
+
+    @FXML
+    private void abrirRetiroCartas(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN\\PLANIFICADOR DE CAMPO\\Planificador\\retiro_Cartas_planificador.pdf");
+    }
+
+    
 }

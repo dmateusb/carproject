@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -39,46 +40,28 @@ public class PPSistemasProcasController extends  VentanasIndividuales implements
         // TODO
     }
 
+    @FXML
+    private void abrirParques(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN PROCAS\\PARQUÉS\\parques50x50.pdf");
+    }
+
+    @FXML
+    private void abrirPlegable(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN PROCAS\\PLEGABLES\\Plegables (9).pdf");
+    }
+
+    @FXML
+    private void abrirPortafolio(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN PROCAS\\PORTAFOLIO\\Portafolio.pdf");
+
+    }
+
+    @FXML
+    private void abrirHojasMarca(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\PP SISTEMAS DE PRODUCCIÓN PROCAS\\PORTAFOLIO\\Hojas marca de agua.pdf");
+    }
 
     
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
-    }
-    private void closed(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
-    }
-
-
     
-    @FXML
-    private void abrirJuego(MouseEvent event) throws URISyntaxException, IOException {
-        Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=51&volver=1"));
-    }
-
-    @FXML
-    private void abrirMultimedia(MouseEvent event) throws URISyntaxException, IOException {
-         Desktop desktop = Desktop.getDesktop();
-        desktop.browse(new URI("http://sigci.car.gov.co/DocCurados/DetalleDocCurados.aspx?idDoc=52&volver=1"));
-    }
-
-    @FXML
-    private void pruebaPdf(MouseEvent event) throws URISyntaxException, IOException {
-        
-        Desktop desktop = Desktop.getDesktop();
-        
-//        try {
-//            desktop.getDesktop().open(new java.io.File("./src/pdf/guiawet.pdf"));
-//        } catch (IOException ex) {
-//            Logger.getLogger(HumedalesController.class.getName()).log(Level.SEVERE, null, ex);
-//        } 
-        String ruta= "./src/pdf/guiawet.pdf";
-        desktop.getDesktop().open(new File(getClass().getResource(ruta).getPath()));
-
-    }
-
-  
     
 }
