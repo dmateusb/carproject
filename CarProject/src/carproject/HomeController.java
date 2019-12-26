@@ -20,7 +20,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import org.jpedal.exception.PdfException;
 
 /**
  *
@@ -34,21 +33,10 @@ public class HomeController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        scrollfondo.setPrefViewportHeight(0);
+        scrollfondo.setVvalue(-0.3);
     }
 
-    private void min(MouseEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setIconified(true);
-    }
 
-    private void closed() {
-        System.exit(0);
-    }
-
-    private void abrirPdf() throws IOException, PdfException {
-        Desktop.getDesktop().open(new java.io.File("./res/pdf/1.pdf"));
-    }
 
     @FXML
     private void abrirPPHumedales() throws IOException {
