@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -10,13 +9,12 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.text.Font?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #000;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
    <center>
       <AnchorPane prefHeight="980.0" prefWidth="1280.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane layoutY="224.0" prefHeight="4740.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutY="224.0" prefHeight="4740.0" prefWidth="1280.0" style="-fx-background-color: #28225c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <AnchorPane layoutX="10.0" layoutY="179.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="220.0">
                      <children>
@@ -92,14 +90,12 @@
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                                                    <children>
-                                                      <Button mnemonicParsing="false" onAction="#abrirPPFauna" prefHeight="296.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                                         <graphic>
-                                                            <ImageView pickOnBounds="true" preserveRatio="true">
-                                                               <image>
-                                                                  <Image url="@../imagenes/Menu/PPFauna.png" />
-                                                               </image>
-                                                            </ImageView>
-                                                         </graphic></Button>
+                                                      <Button mnemonicParsing="false" onAction="#abrirPPFauna" prefHeight="296.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                                      <ImageView layoutX="47.0" layoutY="-88.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../imagenes/Menu/PPFauna.png" />
+                                                         </image>
+                                                      </ImageView>
                                                    </children>
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
@@ -431,21 +427,25 @@
                         </ScrollPane>
                      </children>
                   </AnchorPane>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="98.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="98.0" AnchorPane.topAnchor="7.0">
-                     <image>
-                        <Image url="@../imagenes/CABEZOTE-CAR_01.jpg" />
-                     </image>
-                  </ImageView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="350.0" layoutY="21.0" prefHeight="106.0" prefWidth="843.0" text="HERRAMIENTAS EDUCATIVAS AMBIENTALES" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="87.0" AnchorPane.topAnchor="21.0">
-                     <font>
-                        <Font name="System Bold" size="36.0" />
-                     </font>
-                  </Label>
-                  <Label alignment="CENTER" centerShape="false" contentDisplay="CENTER" layoutX="405.0" layoutY="96.0" text="Y PAQUETES PEDAGÓGICOS" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true" AnchorPane.leftAnchor="405.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="96.0">
-                     <font>
-                        <Font name="System Bold" size="36.0" />
-                     </font>
-                  </Label>
+                  <AnchorPane prefHeight="214.0" prefWidth="1283.0" style="-fx-background-color: #28225c;">
+                     <children>
+                        <ImageView fitHeight="212.0" fitWidth="459.0" layoutX="435.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/banner-02.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="214.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/banner-01.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="220.0" fitWidth="278.0" layoutX="1012.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@../imagenes/banner-03.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
                </children>
             </AnchorPane>
          </children>
