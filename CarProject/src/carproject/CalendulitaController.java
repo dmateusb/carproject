@@ -8,6 +8,9 @@ package carproject;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.ImageCursor;
@@ -31,10 +34,19 @@ public class CalendulitaController extends VentanasIndividuales implements Initi
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }  
+    }
 
-         
 
+    @FXML
+    void abrirCartilla(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\CALENDULITA Y SUS AMIGOS\\calendulitaVfinal_16jul12.pdf");
+    }
+
+    @FXML
+    void abrirPortada(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\CALENDULITA Y SUS AMIGOS\\Portada y legal sangrado y cortes.pdf");
+
+    }
 
   
     
