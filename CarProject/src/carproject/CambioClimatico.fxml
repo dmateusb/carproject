@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="775.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.CalendulitaController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="775.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.CambioClimaticoController">
    <center>
       <AnchorPane prefHeight="616.0" prefWidth="720.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
@@ -28,7 +28,7 @@
                <children>
                   <ImageView fitHeight="249.0" fitWidth="326.0" layoutX="33.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/Ventanas%20individuales/calendulita%20y%20sus%20amigos.png" />
+                        <Image url="@../imagenes/Ventanas%20individuales/CAMBIO%20CLIMÁTICO%20Y%20GESTIÓN%20DEL%20RIESGO.png" />
                      </image>
                   </ImageView>
                   <TextFlow layoutX="333.0" layoutY="38.0" prefHeight="206.0" prefWidth="397.0" textAlignment="CENTER">
@@ -68,14 +68,15 @@
             </Text>
             <AnchorPane layoutX="99.0" layoutY="481.0" prefHeight="170.0" prefWidth="616.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="5.0" AnchorPane.topAnchor="481.0">
                <children>
-                  <TabPane prefHeight="209.0" prefWidth="616.0" styleClass="tab2" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <TabPane prefHeight="209.0" prefWidth="616.0" style=".tab2:top .tab-header-area .headers-region: 12px;" styleClass="tabunica" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <tabs>
                         <Tab closable="false" text="Agenda">
                            <content>
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                  <children>
-                                    <GridPane hgap="20.0" prefHeight="120.0" prefWidth="387.20000000000005">
+                                    <GridPane hgap="20.0" prefHeight="160.0" prefWidth="616.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                        </columnConstraints>
@@ -85,7 +86,7 @@
                                        <children>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                              <children>
-                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirCuaderno" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="El manejo del sombrío y cercas vivas en el cultivo de café como buena práctica agrícola: un sistema agroforestal" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
+                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirCartilla" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Cartilla" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                    <graphic>
                                                       <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -101,7 +102,7 @@
                                           </AnchorPane>
                                           <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                              <children>
-                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPortada" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Portada Cuaderno" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
+                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirGuia" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Guía" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                    <graphic>
                                                       <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
@@ -115,67 +116,9 @@
                                                 </Button>
                                              </children>
                                           </AnchorPane>
-                                       </children>
-                                       <opaqueInsets>
-                                          <Insets />
-                                       </opaqueInsets>
-                                    </GridPane>
-                                 </children>
-                              </AnchorPane>
-                           </content>
-                        </Tab>
-                        <Tab text="Plegable">
-                           <content>
-                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                 <children>
-                                    <GridPane hgap="20.0" prefHeight="120.0" prefWidth="387.20000000000005">
-                                       <columnConstraints>
-                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                       </columnConstraints>
-                                       <rowConstraints>
-                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                       </rowConstraints>
-                                       <children>
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                              <children>
-                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPlegable" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Especies para sombríos" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
-                                                   <graphic>
-                                                      <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
-                                                         <image>
-                                                            <Image url="@../imagenes/Iconos/text-document.png" />
-                                                         </image>
-                                                      </ImageView>
-                                                   </graphic>
-                                                   <font>
-                                                      <Font name="System Bold" size="14.0" />
-                                                   </font>
-                                                </Button>
-                                             </children>
-                                          </AnchorPane>
-                                       </children>
-                                       <opaqueInsets>
-                                          <Insets />
-                                       </opaqueInsets>
-                                    </GridPane>
-                                 </children>
-                              </AnchorPane>
-                           </content>
-                        </Tab>
-                        <Tab text="Multimedia">
-                           <content>
-                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                                 <children>
-                                    <GridPane hgap="20.0" prefHeight="120.0" prefWidth="387.20000000000005">
-                                       <columnConstraints>
-                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                       </columnConstraints>
-                                       <rowConstraints>
-                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                       </rowConstraints>
-                                       <children>
-                                          <AnchorPane prefHeight="200.0" prefWidth="200.0">
-                                             <children>
-                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirMultimedia" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="El manejo del sombrío y cercas vivas en el cultivo de café como buena práctica agrícola: un sistema agroforestal" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
+                                                <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirIman" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Imán" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                    <graphic>
                                                       <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                                                          <image>
