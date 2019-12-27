@@ -40,6 +40,11 @@ FontAwesomeIcon:hover{
 .accordion{
    -fx-background-color: #B2D742;
 }
+
+.borde{
+    -fx-border-color: #ffffff;
+}
+
 @font-face {
 font-family: 'Swiss 721 Condensed BT';
 font-style: normal;
@@ -48,6 +53,7 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 }
 .Text {
     -fx-font-family: Swiss 721 Condensed BT;
+    
 }
 
 .tab-pane .tab-header-area .tab-header-background {
@@ -57,6 +63,12 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 .tab-pane
 {
     -fx-tab-min-width:90px;
+    -fx-tab-max-width:590px;
+}
+
+.tab-pane-test{
+    -fx-tab-min-width:105px;
+    -fx-tab-max-width:590px;
 }
 
 .tab{

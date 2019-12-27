@@ -16,6 +16,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -30,10 +31,14 @@ public class HomeController implements Initializable {
     private static Stage stage;
     @FXML
     private ScrollPane scrollfondo;
-
+    @FXML
+    private ImageView bannercentro;
+       
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         scrollfondo.setVvalue(-0.3);
+        stage.setTitle("CAR - Herramientas educativas ambientales y paquetes pedagógicos");
     }
 
 

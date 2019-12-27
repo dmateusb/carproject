@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -10,13 +9,12 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.text.Font?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #000;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
    <center>
       <AnchorPane prefHeight="980.0" prefWidth="1280.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane layoutY="224.0" prefHeight="4740.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutY="224.0" prefHeight="4740.0" prefWidth="1280.0" style="-fx-background-color: #28225c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <AnchorPane layoutX="10.0" layoutY="179.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="220.0">
                      <children>
@@ -164,7 +162,7 @@
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                                                    <children>
-                                                      <Button layoutX="26.0" layoutY="13.0" mnemonicParsing="false" onAction="#abrirPPPomcas" style="-fx-background-color: #fff;">
+                                                      <Button layoutX="26.0" layoutY="13.0" mnemonicParsing="false" onAction="#abrirPPPomcas" prefHeight="400.0" prefWidth="422.4" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
@@ -188,7 +186,7 @@
                                                 </AnchorPane>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                                    <children>
-                                                      <Button mnemonicParsing="false" onAction="#abrirPPAprovechame" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                      <Button mnemonicParsing="false" onAction="#abrirPPAprovechame" prefHeight="400.8" prefWidth="422.4" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                          <graphic>
                                                             <ImageView pickOnBounds="true" preserveRatio="true">
                                                                <image>
@@ -431,21 +429,49 @@
                         </ScrollPane>
                      </children>
                   </AnchorPane>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="98.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="98.0" AnchorPane.topAnchor="7.0">
-                     <image>
-                        <Image url="@../imagenes/CABEZOTE-CAR_01.jpg" />
-                     </image>
-                  </ImageView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="350.0" layoutY="21.0" prefHeight="106.0" prefWidth="843.0" text="HERRAMIENTAS EDUCATIVAS AMBIENTALES" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="87.0" AnchorPane.topAnchor="21.0">
-                     <font>
-                        <Font name="System Bold" size="36.0" />
-                     </font>
-                  </Label>
-                  <Label alignment="CENTER" centerShape="false" contentDisplay="CENTER" layoutX="405.0" layoutY="96.0" text="Y PAQUETES PEDAGÓGICOS" textAlignment="CENTER" textFill="#4d8cc7" wrapText="true" AnchorPane.leftAnchor="405.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="96.0">
-                     <font>
-                        <Font name="System Bold" size="36.0" />
-                     </font>
-                  </Label>
+                  <AnchorPane prefHeight="214.0" prefWidth="1283.0" style="-fx-background-color: #28225c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <children>
+                        <GridPane prefHeight="214.4" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="214.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../imagenes/banner-01.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                 <children>
+                                    <ImageView fx:id="bannercentro" fitHeight="212.0" fitWidth="459.0" pickOnBounds="true" preserveRatio="true" styleClass="centrado">
+                                       <image>
+                                          <Image url="@../imagenes/banner-02.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+                                 <children>
+                                    <ImageView fitHeight="220.0" fitWidth="278.0" pickOnBounds="true" preserveRatio="true" styleClass="right" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="2.048046875000182" AnchorPane.topAnchor="0.0">
+                                       <image>
+                                          <Image url="@../imagenes/banner-03.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
                </children>
             </AnchorPane>
          </children>
