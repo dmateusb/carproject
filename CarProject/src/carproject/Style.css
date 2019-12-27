@@ -6,6 +6,14 @@
 .scroll-pane{
     -fx-hbar-policy:never;
 }
+
+.scroll-pane{
+   -fx-background-color:transparent;
+}
+.scroll-pane .viewport {
+       -fx-background-color: transparent;
+}
+
 .mylistview .scroll-bar:horizontal ,
 .mylistview  .scroll-bar:vertical{
     -fx-background-color:#147DC1;
