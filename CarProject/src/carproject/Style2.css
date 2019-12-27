@@ -40,6 +40,11 @@ FontAwesomeIcon:hover{
 .accordion{
    -fx-background-color: #B2D742;
 }
+
+.centrado{
+  -fx-alignment: center;
+}
+
 @font-face {
 font-family: 'Swiss 721 Condensed BT';
 font-style: normal;
