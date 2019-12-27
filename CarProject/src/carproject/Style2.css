@@ -6,21 +6,30 @@
 .scroll-pane{
     -fx-hbar-policy:never;
 }
+
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
 .mylistview .scroll-bar:horizontal ,
 .mylistview  .scroll-bar:vertical{
     -fx-background-color:#147DC1;
- 
+
 }
 .mylistview  .corner{
     -fx-background-color:#147DC1;
- 
+
 }
 
 .mylistview .scroll-bar:horizontal .thumb,
 .mylistview .scroll-bar:vertical .thumb {
-    -fx-background-color:#63a455
- 
+    -fx-background-color: #63a455
+
 }
+
 .scroll-bar:horizontal, .scroll-bar:vertical{
     -fx-background-color:transparent;
 }
@@ -38,21 +47,22 @@ FontAwesomeIcon:hover{
     -fx-alignment: CENTER;
 }*/
 .accordion{
-   -fx-background-color: #B2D742;
+    -fx-background-color: #B2D742;
 }
 
-.centrado{
-  -fx-alignment: center;
+.borde{
+    -fx-border-color: #ffffff;
 }
 
 @font-face {
-font-family: 'Swiss 721 Condensed BT';
-font-style: normal;
-font-weight: normal;
-src: url("../fonts/Swiss721CondensedBT.woff");
+    font-family: 'Swiss 721 Condensed BT';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Swiss721CondensedBT.woff");
 }
 .Text {
     -fx-font-family: Swiss 721 Condensed BT;
+
 }
 
 .tab-pane .tab-header-area .tab-header-background {
@@ -62,6 +72,12 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 .tab-pane
 {
     -fx-tab-min-width:90px;
+    -fx-tab-max-width:590px;
+}
+
+.tab-pane-test{
+    -fx-tab-min-width:105px;
+    -fx-tab-max-width:590px;
 }
 
 .tab{
@@ -80,14 +96,14 @@ src: url("../fonts/Swiss721CondensedBT.woff");
     -fx-background-color: #63a455;
 }
 
-.tab .tab-label { 
+.tab .tab-label {
     -fx-alignment: CENTER;
     -fx-text-fill: #63a455;
     -fx-font-size: 12px;
     -fx-font-weight: bold;
 }
 
-.tab:selected .tab-label { 
+.tab:selected .tab-label {
     -fx-alignment: CENTER;
     -fx-text-fill: #ffffff;
 }

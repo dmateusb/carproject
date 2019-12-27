@@ -56,7 +56,7 @@
                <children>
                   <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/banner2-01.png" />
+                        <Image url="@../imagenes/Cabezotes/PP%20aprovechamiento.png" />
                      </image>
                   </ImageView>
                </children>
@@ -66,7 +66,7 @@
                   <Font name="Swis721 BlkCn BT Black" size="22.0" />
                </font>
             </Text>
-            <AnchorPane layoutX="214.0" layoutY="476.0" prefHeight="169.0" prefWidth="387.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="214.0" AnchorPane.rightAnchor="174.0" AnchorPane.topAnchor="476.0">
+            <AnchorPane layoutX="194.0" layoutY="476.0" prefHeight="170.0" prefWidth="390.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="476.0">
                <children>
                   <TabPane styleClass="tab-pane-test" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>
@@ -177,7 +177,8 @@
                                           <Insets />
                                        </opaqueInsets>
                                     </GridPane>
-                                 </children></AnchorPane>
+                                 </children>
+                              </AnchorPane>
                           </content>
                         </Tab>
                     </tabs>
