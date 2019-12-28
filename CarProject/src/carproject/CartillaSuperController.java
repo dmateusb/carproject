@@ -8,6 +8,9 @@ package carproject;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.ImageCursor;
@@ -25,15 +28,28 @@ import javafx.stage.StageStyle;
  */
 public class CartillaSuperController extends VentanasIndividuales implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }  
+    }
 
-         
+
+    @FXML
+    void abrirCartilla(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\CARTLLA SUPER LIGA CICLO RE CICLO\\CONTENIDO CARTILLA.pdf");
+    }
+
+    @FXML
+    void abrirPortada(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\CARTLLA SUPER LIGA CICLO RE CICLO\\PORTADA.pdf");
+
+    }
+
+    @FXML
+    void abrirStickers(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\CARTLLA SUPER LIGA CICLO RE CICLO\\STICKERS.pdf");
+
+    }
 
 
 

@@ -38,17 +38,17 @@ public class CambioClimaticoController extends  VentanasIndividuales implements 
 
     @FXML
     void abrirCartilla(ActionEvent event) {
-
+        Procedimiento.cargarArchivo("\\CAMBIO CLIMÁTICO Y GESTIÓN DEL RIESGO\\CARTILLA\\CARTILLA.pdf");
     }
 
     @FXML
     void abrirGuia(ActionEvent event) {
-
+        Procedimiento.cargarArchivo("\\CAMBIO CLIMÁTICO Y GESTIÓN DEL RIESGO\\GUIA\\GUIA.pdf");
     }
 
     @FXML
     void abrirIman(ActionEvent event) {
-
+        Procedimiento.cargarArchivo("\\CAMBIO CLIMÁTICO Y GESTIÓN DEL RIESGO\\IMÁN\\IMÁN.pdf");
     }
 
  

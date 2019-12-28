@@ -95,11 +95,12 @@ src: url("../fonts/Swiss721CondensedBT.woff");
     -fx-tab-max-width:590px;
 }
 
-.tab-pane-test{
-    -fx-tab-min-width:105px;
-    -fx-tab-max-width:590px;
+/*
+.tab-pane:top .tab-header-area .headers-region .tab:top{
+    -fx-pref-width: 150px;
 }
 
+ */
 .tab{
     -fx-background-insets: 0 1 0 1,0,0;
 }
@@ -126,6 +127,8 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 .tab:selected .tab-label {
     -fx-alignment: CENTER;
     -fx-text-fill: #ffffff;
+    -fx-alignment: CENTER;
+
 }
 
 
@@ -183,4 +186,28 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 }
 .tabunica:top .tab-header-area .headers-region{
     -fx-translate-x: 245px;
+}
+
+
+.tabtres .tab:selected
+{
+    -fx-background-color:  #dd5c56;
+}
+.tabtres:top .tab-header-area .headers-region .tab:selected:top .tab-container .tab-label{
+    -fx-text-fill: white;
+}
+
+
+.tabtres:top .tab-header-area .headers-region{
+    -fx-alignment: center;
+}
+
+.tabtres:top .tab-header-area .headers-region .tab:top .tab-container .tab-label{
+    -fx-alignment: CENTER;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.tabtres:top .tab-header-area .headers-region{
+    -fx-translate-x: 150px;
 }
