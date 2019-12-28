@@ -131,8 +131,15 @@ src: url("../fonts/Swiss721CondensedBT.woff");
 
 }
 
-
-
+.tabtresverde:top .tab-header-area .headers-region{
+    -fx-translate-x: 130px;
+}
+.tabtresverde2:top .tab-header-area .headers-region{
+    -fx-translate-x: 70px;
+}
+.tabdos:top .tab-header-area .headers-region{
+    -fx-translate-x: 90px;
+}
 .tab2 .tab
 {
     -fx-background-color: #ffffff;

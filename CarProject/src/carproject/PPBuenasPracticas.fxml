@@ -49,20 +49,21 @@
                   <Font name="Swis721 BlkCn BT Black" size="18.0" />
                </font>
             </Text>
-            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="387.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="506.0">
+            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="506.0">
                <children>
-                  <TabPane tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <TabPane prefHeight="169.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>
                       <Tab closable="false" text="Bingo de los negocios verdes">
                         <content>
                               <AnchorPane>
                                  <children>
-                                    <ScrollPane fitToHeight="true" prefHeight="97.0" prefWidth="390.0" styleClass="mylistview" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <ScrollPane fitToWidth="true" prefHeight="201.0" prefWidth="600.0" styleClass="mylistview" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <content>
-                                      <AnchorPane prefWidth="388.0" style="-fx-background-color: #147DC1;">
+                                      <AnchorPane prefHeight="240.0" prefWidth="585.0" style="-fx-background-color: #147DC1;">
                                              <children>
-                                                <GridPane hgap="20.0" prefHeight="240.0" prefWidth="388.0" AnchorPane.rightAnchor="0.0">
+                                                <GridPane hgap="20.0" prefHeight="138.0" prefWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                    </columnConstraints>
@@ -103,7 +104,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTablero" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tablero control" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -152,18 +153,17 @@
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                                  <children>
-                                    <ScrollPane styleClass="mylistview" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <ScrollPane fitToWidth="true" styleClass="mylistview" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <content>
-                                          <AnchorPane prefHeight="140.0" prefWidth="387.0" style="-fx-background-color: #147DC1;">
+                                          <AnchorPane prefHeight="480.0" prefWidth="387.0" style="-fx-background-color: #147DC1;">
                                              <children>
-                                                <GridPane hgap="20.0" prefHeight="720.0" prefWidth="388.0">
+                                                <GridPane hgap="20.0" prefHeight="720.0" prefWidth="585.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                    <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                    </columnConstraints>
                                                    <rowConstraints>
-                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -202,7 +202,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTapaRana" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tapa rana" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -218,7 +218,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasBombillos" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas  bombillos" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -234,7 +234,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasCamara" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas cámara" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -250,7 +250,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasCerebro" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas cerebro" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -266,7 +266,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasEngranaje" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas engranaje" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -282,7 +282,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasFicha" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas ficha" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -298,7 +298,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasGrupo" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas grupo" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -314,7 +314,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasLibro" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas libro" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -330,7 +330,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasPersonas" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas personas" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -346,7 +346,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirTarjetasRana" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Tarjetas rana" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>

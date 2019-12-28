@@ -8,6 +8,9 @@ package carproject;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.ImageCursor;
@@ -31,7 +34,31 @@ public class MarthicaController extends VentanasIndividuales implements Initiali
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }  
+    }
+
+    @FXML
+    void abrirContenido(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\MARTHICA UNA GOTICA DE VIDA\\contenido martica la Gotica.pdf");
+
+    }
+
+    @FXML
+    void abrirLogo(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\MARTHICA UNA GOTICA DE VIDA\\logo bordado.pdf");
+
+    }
+
+    @FXML
+    void abrirPortada(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\MARTHICA UNA GOTICA DE VIDA\\Portada martica la Gotica-contornos.pdf");
+
+    }
+
+    @FXML
+    void abrirTapete(ActionEvent event) {
+        Procedimiento.cargarArchivo("\\MARTHICA UNA GOTICA DE VIDA\\tapete Martica curvas2.pdf");
+
+    }
 
          
 
