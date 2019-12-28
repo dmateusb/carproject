@@ -35,10 +35,10 @@ public class HomeController implements Initializable {
     @FXML
     private ImageView bannercentro;
     @FXML
-    private FontAwesomeIcon minus;
+    private ImageView minus;
 
     @FXML
-    private FontAwesomeIcon close;
+    private ImageView close;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -62,7 +62,7 @@ public class HomeController implements Initializable {
     }
 
     public void openFXML() throws IOException {
-        HomeController.stage.initStyle(StageStyle.DECORATED);
+        HomeController.stage.initStyle(StageStyle.UNDECORATED);
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root);
         HomeController.stage.setResizable(false);
