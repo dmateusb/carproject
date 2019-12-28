@@ -5,14 +5,15 @@
  */
 package carproject;
 
-import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
@@ -33,7 +34,11 @@ public class HomeController implements Initializable {
     private ScrollPane scrollfondo;
     @FXML
     private ImageView bannercentro;
-       
+    @FXML
+    private FontAwesomeIcon minus;
+
+    @FXML
+    private FontAwesomeIcon close;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -41,7 +46,14 @@ public class HomeController implements Initializable {
         stage.setTitle("CAR - Herramientas educativas ambientales y paquetes pedagógicos");
     }
 
-
+    @FXML
+    public void mouseHandled(MouseEvent event) {
+        if(event.getSource()==close){
+            Platform.exit();
+        }else if (event.getSource()==minus){
+            stage.setIconified(true);
+        }
+    }
 
     @FXML
     private void abrirPPHumedales() throws IOException {
