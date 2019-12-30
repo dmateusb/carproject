@@ -46,7 +46,7 @@
                <children>
                   <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/Cabezotes/PPAprovechamiento.png" />
+                        <Image url="@../imagenes/Cabezotes/PP%20Humedales.png" />
                      </image>
                   </ImageView>
                </children>

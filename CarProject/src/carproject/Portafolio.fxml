@@ -52,9 +52,9 @@
             </AnchorPane>
             <AnchorPane prefHeight="140.0" prefWidth="775.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="192.0" fitWidth="447.0" layoutX="197.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/Cabezotes/Cada%20residuo%20en%20su%20lugar.png" />
+                        <Image url="@../imagenes/Cabezotes/PORTAFOLIO%20NIÑOS.png" />
                      </image>
                   </ImageView>
                </children>

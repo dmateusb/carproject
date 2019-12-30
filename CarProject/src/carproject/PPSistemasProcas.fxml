@@ -44,9 +44,9 @@
             </AnchorPane>
             <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../imagenes/Cabezotes/PPAprovechamiento.png" />
+                        <Image url="@../imagenes/Cabezotes/PP%20sistemas%20de%20produccion%20para%20la%20conservacion%20de%20aguas%20y%20suelos.png" />
                      </image>
                   </ImageView>
                </children>
