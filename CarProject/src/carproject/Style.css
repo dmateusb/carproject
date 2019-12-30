@@ -1,3 +1,10 @@
+.btnazul {
+    -fx-background-color:  rgb(0,0,0,0.4);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-pref-width: 140px;
+    -fx-pref-height: 30px;
+}
 
 
 .scroll-pane, .scroll-pane.corner{
