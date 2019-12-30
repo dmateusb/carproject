@@ -20,9 +20,9 @@
                     <children>
                         <AnchorPane layoutX="10.0" layoutY="179.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="220.0">
                             <children>
-                                <ScrollPane fx:id="scrollfondo" fitToWidth="true" hmax="0.0" layoutX="7.0" layoutY="3.0" pannable="true" prefHeight="580.0" prefWidth="1280.0" style="-fx-background-color: #fff; -fx-hbar-policy: NEVER;" vbarPolicy="ALWAYS" vvalue="0.73" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <ScrollPane fx:id="scrollfondo" fitToWidth="true" hmax="0.0" layoutX="7.0" layoutY="3.0" pannable="true" prefHeight="580.0" prefWidth="1280.0" style="-fx-background-color: #fff; -fx-hbar-policy: NEVER;" vbarPolicy="ALWAYS" vvalue="0.45" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                     <content>
-                                        <AnchorPane prefHeight="4500.0" prefWidth="1265.0" style="-fx-background-color: #fff;">
+                                        <AnchorPane prefHeight="4500.0" prefWidth="1265.0" style="-fx-background-color: transparent;">
                                             <children>
                                                 <AnchorPane prefHeight="2000.0" prefWidth="1198.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                     <children>
@@ -42,7 +42,7 @@
                                                             <children>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                                                     <children>
-                                                                        <Button layoutX="-22.0" layoutY="-15.0" mnemonicParsing="false" onAction="#abrirPPPromocionLegalidad" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="-22.0" layoutY="-15.0" mnemonicParsing="false" onAction="#abrirPPPromocionLegalidad" prefHeight="400.0" prefWidth="422.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -52,11 +52,9 @@
                                                                             </graphic></Button>
                                                                     </children>
                                                                 </AnchorPane>
-                                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                                                                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
                                                                     <children>
-                                                                        <Button layoutX="-24.0" layoutY="11.0" mnemonicParsing="false" onAction="#abrirPPSistemasProduccionProcas" prefHeight="400.0" prefWidth="428.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="-24.0" layoutY="11.0" mnemonicParsing="false" onAction="#abrirPPSistemasProduccionProcas" prefHeight="400.0" prefWidth="428.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -68,7 +66,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirPPBpa" prefHeight="296.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirPPBpa" prefHeight="296.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -80,7 +78,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirPPBuenasPracticas" prefHeight="400.0" prefWidth="421.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirPPBuenasPracticas" prefHeight="400.0" prefWidth="421.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -92,7 +90,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirPPFauna" prefHeight="296.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirPPFauna" prefHeight="296.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -104,7 +102,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                                                     <children>
-                                                                        <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#abrirPPHumedales" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#abrirPPHumedales" prefHeight="342.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -116,7 +114,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                                                                     <children>
-                                                                        <Button layoutX="76.0" layoutY="-20.0" mnemonicParsing="false" onAction="#abrirPPMetodosParticipacion" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="76.0" layoutY="-20.0" mnemonicParsing="false" onAction="#abrirPPMetodosParticipacion" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -128,7 +126,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                                                     <children>
-                                                                        <Button layoutX="-18.0" layoutY="-19.0" mnemonicParsing="false" onAction="#abrirPPMineria" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="-18.0" layoutY="-19.0" mnemonicParsing="false" onAction="#abrirPPMineria" prefHeight="400.0" prefWidth="422.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -140,7 +138,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                                                     <children>
-                                                                        <Button layoutX="-76.0" layoutY="31.0" mnemonicParsing="false" onAction="#abrirPPParamos" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="-76.0" layoutY="31.0" mnemonicParsing="false" onAction="#abrirPPParamos" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -152,7 +150,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                                                     <children>
-                                                                        <Button layoutX="-10.0" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPPSistemas" prefHeight="400.0" prefWidth="421.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="-10.0" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPPSistemas" prefHeight="400.0" prefWidth="421.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -164,7 +162,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                                                                     <children>
-                                                                        <Button layoutX="26.0" layoutY="13.0" mnemonicParsing="false" onAction="#abrirPPPomcas" prefHeight="400.0" prefWidth="422.4" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="26.0" layoutY="13.0" mnemonicParsing="false" onAction="#abrirPPPomcas" prefHeight="400.0" prefWidth="422.4" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -176,7 +174,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                                                     <children>
-                                                                        <Button layoutX="-44.0" layoutY="4.0" mnemonicParsing="false" onAction="#abrirPPGestionAmbiental" prefHeight="400.0" prefWidth="428.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="-44.0" layoutY="4.0" mnemonicParsing="false" onAction="#abrirPPGestionAmbiental" prefHeight="400.0" prefWidth="428.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -188,7 +186,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirPPAprovechame" prefHeight="400.8" prefWidth="422.4" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirPPAprovechame" prefHeight="400.8" prefWidth="422.4" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -222,7 +220,7 @@
                                                             <children>
                                                                 <AnchorPane>
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirAguaEducacion" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirAguaEducacion" prefHeight="400.0" prefWidth="400.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -234,7 +232,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirCadaResiduo" prefHeight="241.0" prefWidth="399.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirCadaResiduo" prefHeight="241.0" prefWidth="399.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -246,7 +244,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirCalendulita" prefHeight="241.0" prefWidth="399.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirCalendulita" prefHeight="241.0" prefWidth="399.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -258,7 +256,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirElPaisaje" prefHeight="354.0" prefWidth="426.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirElPaisaje" prefHeight="354.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -270,7 +268,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirDigiPack" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirDigiPack" prefHeight="342.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -282,7 +280,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirCuencaHidrogafica" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirCuencaHidrogafica" prefHeight="342.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -294,7 +292,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirConcentreseFauna" prefHeight="400.0" prefWidth="422.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirConcentreseFauna" prefHeight="400.0" prefWidth="422.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -306,7 +304,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirClimaticamente" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirClimaticamente" prefHeight="342.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -318,7 +316,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirCartillaSuper" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirCartillaSuper" prefHeight="342.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -330,7 +328,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirCartillaDidactica" prefHeight="342.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirCartillaDidactica" prefHeight="342.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -342,7 +340,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirCambioClimatico" prefHeight="354.0" prefWidth="426.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirCambioClimatico" prefHeight="354.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -354,7 +352,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirEscaleraAmbiental" prefHeight="354.0" prefWidth="426.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirEscaleraAmbiental" prefHeight="354.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -366,7 +364,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                                                     <children>
-                                                                        <Button layoutX="116.0" layoutY="87.0" mnemonicParsing="false" onAction="#abrirLegalizate" prefHeight="241.0" prefWidth="399.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button layoutX="116.0" layoutY="87.0" mnemonicParsing="false" onAction="#abrirLegalizate" prefHeight="241.0" prefWidth="399.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -378,7 +376,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirMarthica" prefHeight="241.0" prefWidth="399.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirMarthica" prefHeight="241.0" prefWidth="399.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -390,7 +388,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirPortafolio" prefHeight="240.0" prefWidth="400.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirPortafolio" prefHeight="240.0" prefWidth="400.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>
@@ -402,7 +400,7 @@
                                                                 </AnchorPane>
                                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
                                                                     <children>
-                                                                        <Button mnemonicParsing="false" onAction="#abrirLasCartas" prefHeight="354.0" prefWidth="426.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                        <Button mnemonicParsing="false" onAction="#abrirLasCartas" prefHeight="354.0" prefWidth="426.0" styleClass="btnmenu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                             <graphic>
                                                                                 <ImageView pickOnBounds="true" preserveRatio="true">
                                                                                     <image>

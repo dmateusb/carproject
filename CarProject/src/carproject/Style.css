@@ -5,7 +5,12 @@
     -fx-pref-width: 140px;
     -fx-pref-height: 30px;
 }
-
+.btnmenu{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
 
 .scroll-pane, .scroll-pane.corner{
     -fx-background-color:transparent;
