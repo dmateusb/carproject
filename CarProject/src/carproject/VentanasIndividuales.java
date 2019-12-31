@@ -13,6 +13,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
@@ -44,6 +45,8 @@ public class VentanasIndividuales {
         stage.setResizable(false);
         stage.sizeToScene();
         stage.setScene(scene);
+        stage.getIcons().add(new Image(VentanasIndividuales.class.getResourceAsStream("/imagenes/Iconos/FAVICON.png")));
+
         stage.centerOnScreen();
         stage.show();
     }

@@ -18,9 +18,9 @@ public class CarProject extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+
         HomeController controller= new HomeController();
-        String path=new File("").getAbsolutePath();
-        String ruta="\\src\\imagenes\\cabezote.jpg";
+
         
         controller.setStage(stage);
         controller.openFXML();
@@ -34,7 +34,7 @@ public class CarProject extends Application {
     }
 
     
-    
+
     
    
 
