@@ -16,6 +16,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Screen;
@@ -72,6 +73,7 @@ public class HomeController implements Initializable {
         HomeController.stage.setY(bounds.getMinY());
         HomeController.stage.setWidth(bounds.getWidth());
         HomeController.stage.setHeight(bounds.getHeight());
+        HomeController.stage.getIcons().add(new Image(HomeController.class.getResourceAsStream("/imagenes/Iconos/FAVICON.png")));
         HomeController.stage.show();
     }
 
