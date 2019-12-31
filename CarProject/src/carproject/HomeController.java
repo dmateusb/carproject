@@ -76,13 +76,7 @@ public class HomeController implements Initializable {
     }
 
    
-    
-   /* public void cambiarPuntero(Stage stage) {
-        Image image = new Image("file:./res/img/puntero.png");
-        stage.getScene().setCursor(new ImageCursor(image, image.getWidth() / 2,
-                image.getHeight() / 2));
-    }
-*/
+
     public Stage getStage() {
         return stage;
     }
