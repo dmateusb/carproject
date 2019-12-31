@@ -41,12 +41,12 @@
                         </Text>
                      </children>
                   </TextFlow>
-                  <Button fx:id="btndescripcion" layoutX="384.0" layoutY="274.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
+                  <Button fx:id="btndescripcion" layoutX="384.0" layoutY="278.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnespecificacion" layoutX="553.0" layoutY="274.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
+                  <Button fx:id="btnespecificacion" layoutX="553.0" layoutY="278.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>

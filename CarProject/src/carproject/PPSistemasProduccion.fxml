@@ -25,7 +25,7 @@
                   <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
-            <AnchorPane layoutX="17.0" layoutY="140.0" prefHeight="347.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="140.0">
+            <AnchorPane layoutX="17.0" layoutY="140.0" prefHeight="314.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="140.0">
                <children>
                   <ImageView fitHeight="273.0" fitWidth="351.0" layoutX="51.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -34,39 +34,39 @@
                   </ImageView>
                   <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="La tradicional huerta de pancoger se convierte en el centro de este paquete pedagógico mostrando que además de ser un espacio que aporta a la seguridad alimentaria, es un lugar de encuentro familiar y comunitario, además de un espacio natural de aporte a la protección ambiental. " textAlignment="CENTER" wrappingWidth="264.13671875">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold" size="16.0" />
                            </font>
                         </Text>
                      </children>
                   </TextFlow>
-                  <Button layoutX="370.0" layoutY="298.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
+                  <Button fx:id="btndescripcion" layoutX="370.0" layoutY="267.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="539.0" layoutY="298.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
+                  <Button fx:id="btnespecificacion" layoutX="539.0" layoutY="267.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="150.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Cabezotes/PP%20Sistemas%20de%20produccion.png" />
                      </image>
                   </ImageView>
                </children></AnchorPane>
-            <Text fill="WHITE" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="WHITE" layoutX="88.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
-                  <Font name="Swis721 BlkCn BT Black" size="18.0" />
+                  <Font name="Swis721 BlkCn BT Black" size="22.0" />
                </font>
             </Text>
-            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="506.0">
+            <AnchorPane layoutX="88.0" layoutY="491.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="491.0">
                <children>
                   <TabPane styleClass="tabtresverde" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>

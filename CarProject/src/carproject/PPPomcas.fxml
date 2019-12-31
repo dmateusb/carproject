@@ -25,49 +25,49 @@
                   <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
-            <AnchorPane layoutX="17.0" layoutY="128.0" prefHeight="359.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="128.0">
+            <AnchorPane layoutX="17.0" layoutY="128.0" prefHeight="337.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="128.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="67.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="54.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Ventanas%20individuales/PP%20POMCAS.png" />
                      </image>
                   </ImageView>
-                  <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
+                  <TextFlow layoutX="328.0" layoutY="18.0" prefHeight="200.0" prefWidth="380.0" textAlignment="CENTER">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="El reconocimiento de la cuenca como un sistema dinámico de interacciones, de cuyo ordenamiento y manejo depende la vida humana, es fundamental para la generación de una cultura de comunidad en donde primen los principios colectivos y se respeten los márgenes de recuperación de los ecosistemas. La cuenca como unidad de organización y a la vez asociación, es la protagonista de este paquete pedagógico que, mediante diversos mecanismos, incluida la música, brinda información útil y significativa para la apropiación de estos conocimientos. " textAlignment="CENTER" wrappingWidth="264.13671875">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold" size="16.0" />
                            </font>
                         </Text>
                      </children>
                   </TextFlow>
-                  <Button layoutX="370.0" layoutY="299.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
+                  <Button fx:id="btndescripcion" layoutX="370.0" layoutY="286.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="539.0" layoutY="299.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
+                  <Button fx:id="btnespecificacion" layoutX="539.0" layoutY="286.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="150.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Cabezotes/PP%20Pomcas.png" />
                      </image>
                   </ImageView>
                </children>
             </AnchorPane>
-            <Text fill="WHITE" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="WHITE" layoutX="88.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
-                  <Font name="Swis721 BlkCn BT Black" size="18.0" />
+                  <Font name="Swis721 BlkCn BT Black" size="22.0" />
                </font>
             </Text>
-            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="506.0">
+            <AnchorPane layoutX="88.0" layoutY="498.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="498.0">
                <children>
                   <TabPane styleClass="tabtresverde" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>
@@ -141,6 +141,7 @@
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                                    </columnConstraints>
                                                    <rowConstraints>
                                                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -165,23 +166,8 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
-                                                         <children>
-                                                            <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirFichas" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Fichas" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
-                                                               <graphic>
-                                                                  <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
-                                                                     <image>
-                                                                        <Image url="@../imagenes/Iconos/text-document.png" />
-                                                                     </image>
-                                                                  </ImageView>
-                                                               </graphic>
-                                                               <font>
-                                                                  <Font name="System Bold" size="14.0" />
-                                                               </font>
-                                                            </Button>
-                                                         </children>
-                                                      </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirInstructivo" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Instructivo" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -213,7 +199,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPistasBosqueHumedo" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Pistas Bosque Húmedo" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -229,7 +215,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPistasBosqueSeco" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Pistas Bosque Seco" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -261,7 +247,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPistasParamo" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Pistas Páramo" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -277,7 +263,7 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
-                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
                                                          <children>
                                                             <Button alignment="CENTER" contentDisplay="TOP" layoutY="8.0" mnemonicParsing="false" onAction="#abrirPistasRio" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Pistas Rio" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
                                                                <graphic>
@@ -309,6 +295,18 @@
                                                             </Button>
                                                          </children>
                                                       </AnchorPane>
+                                                      <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#abrirFichas" prefHeight="131.0" prefWidth="120.0" style="-fx-background-color: rgb(0,0,0,0);" text="Fichas" textFill="WHITE" GridPane.columnIndex="1">
+                                                         <graphic>
+                                                            <ImageView fitHeight="100.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../imagenes/Iconos/text-document.png" />
+                                                               </image>
+                                                            </ImageView>
+                                                         </graphic>
+                                                         <font>
+                                                            <Font name="System Bold" size="14.0" />
+                                                         </font>
+                                                      </Button>
                                                    </children>
                                                    <opaqueInsets>
                                                       <Insets />
