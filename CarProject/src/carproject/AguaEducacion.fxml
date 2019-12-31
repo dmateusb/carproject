@@ -25,6 +25,7 @@
                         <Image url="@../imagenes/Iconos/close.png" />
                      </image>
                   </ImageView>
+                  <Text fx:id="texto" layoutX="33.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="515.4700317382812" />
                </children>
             </Pane>
             <ImageView fitHeight="675.0" fitWidth="775.0" pickOnBounds="true">
