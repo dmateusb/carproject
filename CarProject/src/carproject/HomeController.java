@@ -10,6 +10,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.application.Platform;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -22,6 +23,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.stage.WindowEvent;
 
 /**
  *
@@ -69,6 +71,11 @@ public class HomeController implements Initializable {
         HomeController.stage.setScene(scene);
         Screen screen = Screen.getPrimary();
         javafx.geometry.Rectangle2D bounds = screen.getVisualBounds();
+        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            public void handle(WindowEvent we) {
+                Platform.exit();
+            }
+        });
         HomeController.stage.setX(bounds.getMinX());
         HomeController.stage.setY(bounds.getMinY());
         HomeController.stage.setWidth(bounds.getWidth());
