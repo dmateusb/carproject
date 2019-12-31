@@ -429,9 +429,9 @@
                                 </ScrollPane>
                             </children>
                         </AnchorPane>
-                        <AnchorPane prefHeight="214.0" prefWidth="1283.0" style="-fx-background-color: #28225c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        <AnchorPane prefHeight="230.0" prefWidth="1280.0" style="-fx-background-color: #14707c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                             <children>
-                                <GridPane prefHeight="214.4" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <GridPane prefHeight="210.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
                                     <columnConstraints>
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -443,7 +443,7 @@
                                     <children>
                                         <AnchorPane prefHeight="200.0" prefWidth="200.0">
                                             <children>
-                                                <ImageView fitHeight="214.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true">
+                                                <ImageView fitHeight="210.0" fitWidth="246.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                                     <image>
                                                         <Image url="@../imagenes/banner-01.png" />
                                                     </image>
@@ -452,7 +452,7 @@
                                         </AnchorPane>
                                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                             <children>
-                                                <ImageView fx:id="bannercentro" fitHeight="212.0" fitWidth="459.0" pickOnBounds="true" preserveRatio="true" styleClass="centrado">
+                                                <ImageView fx:id="bannercentro" fitHeight="201.0" fitWidth="600.0" layoutX="-4.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" styleClass="centrado">
                                                     <image>
                                                         <Image url="@../imagenes/banner-02.png" />
                                                     </image>
@@ -461,7 +461,7 @@
                                         </AnchorPane>
                                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                                             <children>
-                                                <ImageView fitHeight="220.0" fitWidth="278.0" pickOnBounds="true" preserveRatio="true" styleClass="right" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="2.048046875000182" AnchorPane.topAnchor="0.0">
+                                                <ImageView fitHeight="220.0" fitWidth="278.0" layoutX="147.00781249999994" layoutY="-9.0" pickOnBounds="true" preserveRatio="true" styleClass="right" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="8.704199218750034" AnchorPane.topAnchor="-9.0">
                                                     <image>
                                                         <Image url="@../imagenes/banner-03.png" />
                                                     </image>
@@ -470,7 +470,7 @@
                                         </AnchorPane>
                                     </children>
                                 </GridPane>
-                        <HBox alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="1280.0" style="-fx-background-color: #a1ada4;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <HBox alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="1280.0" style="-fx-background-color: #14707c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
                               <ImageView fx:id="minus" fitHeight="15.0" fitWidth="15.0" onMouseClicked="#mouseHandled" pickOnBounds="true" preserveRatio="true">
                                  <HBox.margin>

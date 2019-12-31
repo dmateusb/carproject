@@ -27,7 +27,7 @@
             </ImageView>
             <AnchorPane layoutX="17.0" layoutY="133.0" prefHeight="354.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="133.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="204.0" fitWidth="314.0" layoutX="49.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Ventanas%20individuales/PP%20PROMOCIÓN%20DE%20LA%20LEGALIDAD.png" />
                      </image>
