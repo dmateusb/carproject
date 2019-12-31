@@ -1,3 +1,11 @@
+.paneltexto{
+    -fx-background-color: #3AACAC;
+    -fx-background-radius: 10;
+    -fx-border-color: #DD5C56;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+}
+
 .btnazul {
     -fx-background-color:  rgb(0,0,0,0.4);
     -fx-text-fill: white;
