@@ -25,48 +25,48 @@
                   <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
-            <AnchorPane layoutX="17.0" layoutY="138.0" prefHeight="349.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="138.0">
+            <AnchorPane layoutX="17.0" layoutY="138.0" prefHeight="313.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="130.0">
                <children>
                   <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="35.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Ventanas%20individuales/PP%20PÁRAMOS.png" />
                      </image>
                   </ImageView>
-                  <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
+                  <TextFlow layoutX="349.0" layoutY="24.0" prefHeight="200.0" prefWidth="380.0" textAlignment="CENTER">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Cada uno de los elementos de la naturaleza es igualmente importante, pues cumple una función primordial en el mantenimiento del equilibrio y armonía ambiental. En Colombia y específicamente en el territorio CAR se cuenta con una diversidad muy amplia de ecosistemas, y con ellos, de especies de fauna y flora. En este paquete pedagógico se destaca a través de juegos y material ilustrado, el ecosistema de páramo, sus componentes, servicios e importancia como pilar fundamental para el mantenimiento de la vida. " textAlignment="CENTER" wrappingWidth="264.13671875">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold" size="16.0" />
                            </font>
                         </Text>
                      </children>
                   </TextFlow>
-                  <Button layoutX="370.0" layoutY="298.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
+                  <Button fx:id="btndescripcion" layoutX="384.0" layoutY="274.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="539.0" layoutY="298.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
+                  <Button fx:id="btnespecificacion" layoutX="553.0" layoutY="274.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="150.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Cabezotes/PP%20Páramos.png" />
                      </image>
                   </ImageView>
                </children></AnchorPane>
-            <Text fill="WHITE" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="WHITE" layoutX="88.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
-                  <Font name="Swis721 BlkCn BT Black" size="18.0" />
+                  <Font name="Swis721 BlkCn BT Black" size="22.0" />
                </font>
             </Text>
-            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="506.0">
+            <AnchorPane layoutX="88.0" layoutY="491.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="491.0">
                <children>
                   <TabPane styleClass="tabtresverde2" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>

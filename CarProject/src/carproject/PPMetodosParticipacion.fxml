@@ -24,49 +24,49 @@
                   <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
-            <AnchorPane layoutX="17.0" layoutY="133.0" prefHeight="354.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="133.0">
+            <AnchorPane layoutX="17.0" layoutY="133.0" prefHeight="304.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="-26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Ventanas%20individuales/PP%20MÉTODOS%20DE%20PARTICIPACIÓN.png" />
                      </image>
                   </ImageView>
-                  <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
+                  <TextFlow layoutX="332.0" layoutY="14.0" prefHeight="200.0" prefWidth="380.0" textAlignment="CENTER">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="La labor encargada a la Corporación de administrar y velar por la protección de los recursos naturales es un reto que requiere del trabajo comunitario y el empoderamiento de los actores sociales para el cuidado de su propio territorio. Es así como este paquete pedagógico procura el desarrollo de actividades que motiven al conocimiento y defensa de las cuencas hidrográficas y todo lo que ellas representan, mediante la exploración de los métodos innovadores de participación. " textAlignment="CENTER" wrappingWidth="264.13671875">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold" size="16.0" />
                            </font>
                         </Text>
                      </children>
                   </TextFlow>
-                  <Button layoutX="370.0" layoutY="296.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
+                  <Button fx:id="btndescripcion" layoutX="374.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="539.0" layoutY="296.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
+                  <Button fx:id="btnespecificacion" layoutX="536.0" layoutY="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="150.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="103.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Cabezotes/Metodos%20de%20participacion.png" />
                      </image>
                   </ImageView>
                </children>
             </AnchorPane>
-            <Text fill="WHITE" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="WHITE" layoutX="99.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
-                  <Font name="Swis721 BlkCn BT Black" size="18.0" />
+                  <Font name="Swis721 BlkCn BT Black" size="22.0" />
                </font>
             </Text>
-            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="387.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="506.0">
+            <AnchorPane layoutX="194.0" layoutY="491.0" prefHeight="169.0" prefWidth="387.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="491.0">
                <children>
                   <TabPane tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>

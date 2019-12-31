@@ -25,48 +25,48 @@
                   <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
                </image>
             </ImageView>
-            <AnchorPane layoutY="146.0" prefHeight="340.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="146.0">
+            <AnchorPane layoutY="146.0" prefHeight="300.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
                <children>
-                  <ImageView fitHeight="250.0" fitWidth="377.0" layoutX="7.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="199.0" fitWidth="298.0" layoutX="18.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Ventanas%20individuales/PP%20FAUNA%20EN%20EL%20TERRITORIO.png" />
                      </image>
                   </ImageView>
-                  <TextFlow layoutX="388.0" layoutY="49.0" prefHeight="200.0" prefWidth="273.0" textAlignment="CENTER">
+                  <TextFlow layoutX="332.0" layoutY="32.0" prefHeight="114.0" prefWidth="380.0" textAlignment="CENTER">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Con una amplia posibilidad didáctica, este paquete pedagógico conjuga la tecnología y elementos físicos para desarrollar una experiencia de aprendizaje altamente significativa.  Su eje de acción son los humedales como ecosistemas estratégicos para la protección de la biodiversidad, la regulación del ciclo hídrico y en general la provisión de servicios ecosistémicos. " textAlignment="CENTER" wrappingWidth="264.13671875">
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="La protección de la fauna silvestre es una prioridad de la Corporación en su ejercicio de autoridad ambiental y como garante de sostenibilidad en el territorio de su jurisdicción. Así bien, este paquete pedagógico da a conocer de una manera gráfica, amable y didáctica una buena representación de especies de fauna, sus característica, hábitats e importancia, a fin de propiciar su valoración y cuidado. " textAlignment="CENTER" wrappingWidth="264.13671875">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold" size="16.0" />
                            </font>
                         </Text>
                      </children>
                   </TextFlow>
-                  <Button layoutX="382.0" layoutY="296.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
+                  <Button layoutX="368.0" layoutY="251.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Descripción detallada" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button layoutX="551.0" layoutY="296.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
+                  <Button layoutX="537.0" layoutY="251.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: rgb(0,0,0,0.4);" styleClass="btnazul" text="Especificación técnica" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
                </children>
             </AnchorPane>
-            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="175.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <AnchorPane layoutX="33.0" layoutY="33.0" prefHeight="150.0" prefWidth="775.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="575.0" layoutX="100.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Cabezotes/PP%20Fauna%20en%20el%20territorio.png" />
                      </image>
                   </ImageView>
                </children></AnchorPane>
-            <Text fill="WHITE" layoutX="114.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="WHITE" layoutX="95.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
-                  <Font name="Swis721 BlkCn BT Black" size="18.0" />
+                  <Font name="Swis721 BlkCn BT Black" size="22.0" />
                </font>
             </Text>
-            <AnchorPane layoutY="506.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="506.0">
+            <AnchorPane layoutX="88.0" layoutY="487.0" prefHeight="169.0" prefWidth="600.0" style="-fx-background-color: rgb(0,0,0,0);" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="487.0">
                <children>
                   <TabPane styleClass="tabtresverde" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <tabs>
