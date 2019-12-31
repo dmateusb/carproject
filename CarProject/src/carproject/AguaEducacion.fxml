@@ -18,14 +18,32 @@
    <center>
       <AnchorPane prefHeight="616.0" prefWidth="720.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
-            <Pane fx:id="paneltexto" layoutX="115.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
+            <Pane fx:id="panelespecificacion" layoutX="115.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
                <children>
-                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="554.0" layoutY="5.0" onMouseClicked="#cerrarpanel" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="554.0" layoutY="5.0" onMouseClicked="#cerrarespecificacion" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Iconos/close.png" />
                      </image>
                   </ImageView>
-                  <Text fx:id="texto" layoutX="33.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="515.4700317382812" />
+                  <ScrollPane fx:id="scroll1" fitToWidth="true" layoutX="33.0" layoutY="25.0" prefHeight="307.0" prefWidth="518.0">
+                     <content>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" wrappingWidth="516.8034057617188" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </Pane>
+            <Pane fx:id="paneldescripcion" layoutX="115.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="554.0" layoutY="5.0" onMouseClicked="#cerrardescripcion" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/Iconos/close.png" />
+                     </image>
+                  </ImageView>
+                  <ScrollPane fx:id="scroll" fitToWidth="true" layoutX="33.0" layoutY="25.0" prefHeight="307.0" prefWidth="518.0">
+                     <content>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" wrappingWidth="516.8034057617188" />
+                     </content>
+                  </ScrollPane>
                </children>
             </Pane>
             <ImageView fitHeight="675.0" fitWidth="775.0" pickOnBounds="true">

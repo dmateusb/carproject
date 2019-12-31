@@ -6,10 +6,17 @@
 package carproject;
 
 import java.io.IOException;
+
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -18,6 +25,17 @@ import javafx.stage.StageStyle;
  * @author david
  */
 public class VentanasIndividuales {
+    @FXML
+    private Button btndescripcion;
+    @FXML
+    private ScrollPane scroll;
+    @FXML
+    private Button btnespecifificacion;
+
+    @FXML
+    private Pane panelespecificacion;
+    @FXML
+    private Pane paneldescripcion;
     public void openFXML(String ruta) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(ruta+".fxml"));
         Parent root = (BorderPane) loader.load(getClass().getResource(ruta+".fxml").openStream());
@@ -28,5 +46,23 @@ public class VentanasIndividuales {
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.show();
+    }
+    @FXML
+    void mouseHandled(MouseEvent event) {
+        if(event.getSource()==btndescripcion){
+            panelespecificacion.toFront();
+        }else if(event.getSource()==btnespecifificacion){
+            paneldescripcion.toFront();
+        }
+    }
+
+    @FXML
+    void cerrardescripcion(MouseEvent event) {
+        paneldescripcion.toBack();
+    }
+
+    @FXML
+    void cerrarespecificacion(MouseEvent event) {
+        panelespecificacion.toBack();
     }
 }
