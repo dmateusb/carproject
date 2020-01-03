@@ -24,6 +24,7 @@ public class AguaEducacionController extends VentanasIndividuales implements Ini
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        
         // TODO
     }
 

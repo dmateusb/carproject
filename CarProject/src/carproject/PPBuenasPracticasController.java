@@ -17,13 +17,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
 /**
  * FXML Controller class
  *
  * @author david
  */
-public class PPBuenasPracticasController implements Initializable {
+public class PPBuenasPracticasController extends VentanasIndividuales implements Initializable {
+
    
     
     /**
@@ -34,17 +34,6 @@ public class PPBuenasPracticasController implements Initializable {
         // TODO
     }
 
-    public void openFXML() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("PPBuenasPracticas.fxml"));
-        Parent root = (BorderPane) loader.load(getClass().getResource("PPBuenasPracticas.fxml").openStream());
-        Stage stage = new Stage(StageStyle.DECORATED);
-        Scene scene = new Scene(root);
-        stage.setResizable(false);
-        stage.sizeToScene();
-        stage.setScene(scene);
-        stage.centerOnScreen();
-        stage.show();
-    }
     @FXML
     private void abrirCaja(ActionEvent event) {
         Procedimiento.cargarArchivo("\\PP BUENAS PRÁCTICAS\\BINGO\\BINGO CAJA.pdf");
