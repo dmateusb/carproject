@@ -14,20 +14,25 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="775.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.AguaEducacionController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="775.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.AguaEducacionController">
    <center>
       <AnchorPane prefHeight="616.0" prefWidth="720.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
             <Pane fx:id="panelespecificacion" layoutX="115.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
                <children>
+                  <ImageView pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/fondo%20textos.png" />
+                     </image>
+                  </ImageView>
                   <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="554.0" layoutY="5.0" onMouseClicked="#cerrarespecificacion" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Iconos/close.png" />
                      </image>
                   </ImageView>
-                  <ScrollPane fx:id="scroll1" fitToWidth="true" layoutX="33.0" layoutY="25.0" prefHeight="307.0" prefWidth="518.0">
+                  <ScrollPane fx:id="scroll1" layoutX="33.0" layoutY="25.0" prefHeight="307.0" prefWidth="518.0">
                      <content>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" wrappingWidth="516.8034057617188" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textodescripcion" text="Si tu intensión es divertirte, jugar y hasta hacer ejercicio mientras aprendes todo acerca del agua, esta guía es tu mejor opción. No necesitarás mucho más que recorrer sus páginas para aprender 32 dinámicas de grupo y profundizar en 3 grandes ámbitos temáticos: “re-conociendo el agua”, “gestión del agua” y “agua, vida y salud”. Diviértete aprendiendo y enseñando sobre uno de los elementos naturales más importantes: ¡El agua! Esta guía metodológica pensada para el docente, pero perfectamente aplicable a todo líder que desee desarrollar actividades y procesos de educación ambiental, está organizada de una forma muy amigable para su interpretación y aplicación. Inicialmente describe el origen del proyecto en el ámbito internacional y conceptos básicos sobre la situación del agua en Colombia, así como una orientación de lectura. Cada dinámica, además de contar con un nombre creativo y diciente, desde el inicio describe en términos generales el alcance y grupo etario para el que fue creada. Luego, según la selección que hagas te conducirá paso a paso para lograr el objetivo con una secuencia metodológica muy comprensible y sencilla de asimilar. Te indicará los materiales, el marco conceptual, el procedimiento, la evaluación, las posibilidades de profundización y hasta bibliografía recomendada. Lo mejor es que los materiales para desarrollar cada dinámica los puedes encontrar en tu propio hogar. Es un recurso muy útil si lo que quieres es adentrarte en el desarrollo práctico de ejercicios de educación ambiental. Las dinámicas implican carreras, saltos, análisis, estrategia, trabajo en equipo, liderazgo y muchas habilidades más. ¡Consúltala, seguro no te vas a arrepentir! " wrappingWidth="502.80340576171875" />
                      </content>
                   </ScrollPane>
                </children>

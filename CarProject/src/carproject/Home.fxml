@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #000;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #000;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carproject.HomeController">
     <center>
         <AnchorPane prefHeight="980.0" prefWidth="1280.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
             <children>
@@ -448,7 +448,7 @@
                                              <children>
                                                 <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                                                    <children>
-                                                                    <ImageView fitHeight="90.0" fitWidth="1196.0" layoutX="-207.0" layoutY="-2.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                                                                    <ImageView fitHeight="90.0" fitWidth="1196.0" layoutX="-325.0" layoutY="-2.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
                                                                         <image>
                                                                             <Image url="@../imagenes/Cabezotes/titulos2-01.png" />
                                                                         </image>
