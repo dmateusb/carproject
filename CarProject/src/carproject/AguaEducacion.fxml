@@ -18,32 +18,123 @@
    <center>
       <AnchorPane prefHeight="616.0" prefWidth="720.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
          <children>
-            <Pane fx:id="panelespecificacion" layoutX="115.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
+            <Pane fx:id="panelespecificacion" layoutX="100.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
                <children>
-                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="554.0" layoutY="5.0" onMouseClicked="#cerrarespecificacion" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="350.0" fitWidth="579.0" onMouseClicked="#cerrardescripcion" pickOnBounds="true">
+                     <image>
+                        <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
+                     </image>
+                  </ImageView>
+                  <ScrollPane fx:id="scroll1" layoutY="52.0" prefHeight="285.0" prefWidth="578.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="482.0" prefWidth="574.0">
+                           <children>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descripción">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Libro tamaño carta con 210 páginas. También en formato digital. " wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conceptos Clave">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ciclo, demanda, calidad, cantidad, almacenamiento, contaminación puntual y difusa, propiedades, abastecimiento y uso eficiente del agua; aguas residuales, erosión, turbiedad, sedimentación, cuenca, problemas y gestión del agua, enfermedades y desastres relacionadas con el agua, ecosistemas, humedales, restauración, conservación, variabilidad, cambio climático y seguridad alimentaria. " wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Población a la que se dirige">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Todo público" wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Año de producción - actualización">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2012" wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duración para desarrollo metodológico">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="24.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cada estrategia tiene una duración estimada. " wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="556.0" layoutY="6.0" onMouseClicked="#cerrarespecificacion" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Iconos/close.png" />
                      </image>
                   </ImageView>
-                  <ScrollPane fx:id="scroll1" fitToWidth="true" layoutX="33.0" layoutY="25.0" prefHeight="307.0" prefWidth="518.0">
-                     <content>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" wrappingWidth="516.8034057617188" />
-                     </content>
-                  </ScrollPane>
+                  <Text fill="WHITE" layoutX="160.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Especificación Técnica">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
                </children>
             </Pane>
-            <Pane fx:id="paneldescripcion" layoutX="115.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
+            <Pane fx:id="paneldescripcion" layoutX="100.0" layoutY="150.0" prefHeight="347.0" prefWidth="578.0" styleClass="paneltexto">
                <children>
-                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="554.0" layoutY="5.0" onMouseClicked="#cerrardescripcion" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="350.0" fitWidth="579.0" onMouseClicked="#cerrardescripcion" pickOnBounds="true">
+                     <image>
+                        <Image url="@../imagenes/FONDO-MARIPOSAS.jpg" />
+                     </image>
+                  </ImageView>
+                  <ScrollPane layoutY="59.0" prefHeight="271.0" prefWidth="578.0">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="601.0" prefWidth="574.0">
+                           <children>
+                              <Text fill="WHITE" layoutX="32.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si tu intensión es divertirte, jugar y hasta hacer ejercicio mientras aprendes todo acerca del agua, esta guía es tu mejor opción. No necesitarás mucho más que recorrer sus páginas para aprender 32 dinámicas de grupo y profundizar en 3 grandes ámbitos temáticos: “re-conociendo el agua”, “gestión del agua” y “agua, vida y salud”. Diviértete aprendiendo y enseñando sobre uno de los elementos naturales más importantes: ¡El agua!" textAlignment="JUSTIFY" wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="32.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Podrás desarrollar estrategias didácticas para niños desde los 3 años, hasta adultos de cualquier edad, y profundizar tanto como lo desees, son múltiples los objetivos que alcanzarás con esta pieza educativa, tan diversos como sus dinámicas y temáticas. Re-conociendo el agua, con sus 11 estrategias, te llevará a sorprenderte con lo que es el agua en sí, sus propiedades, los procesos de su ciclo, la relación entre los elementos de la atmósfera, geósfera e hidrósfera.Agua vida y salud, con sus 10 dinámicas, te permitirán apropiar conocimientos que deriven en la valoración del agua como elemento vital para el mantenimiento de los ecosistemas y la biodiversidad. Su importancia para la seguridad alimentaria y la salud, así como los múltiples servicios que presta para el buen vivir. Por último, la gestión del agua, con sus once metodologías, te motivarán al cuidado del agua como recurso compartido que requiere de la participación y compromiso de la sociedad, teniendo en cuenta factores físicos y socio culturales. " textAlignment="JUSTIFY" wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="WHITE" layoutX="35.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esta guía metodológica pensada para el docente, pero perfectamente aplicable a todo líder que desee desarrollar actividades y procesos de educación ambiental, está organizada de una forma muy amigable para su interpretación y aplicación. Inicialmente describe el origen del proyecto en el ámbito internacional y conceptos básicos sobre la situación del agua en Colombia, así como una orientación de lectura. Cada dinámica, además de contar con un nombre creativo y diciente, desde el inicio describe en términos generales el alcance y grupo etario para el que fue creada. Luego, según la selección que hagas te conducirá paso a paso para lograr el objetivo con una secuencia metodológica muy comprensible y sencilla de asimilar. Te indicará los materiales, el marco conceptual, el procedimiento, la evaluación, las posibilidades de profundización y hasta bibliografía recomendada. Lo mejor es que los materiales para desarrollar cada dinámica los puedes encontrar en tu propio hogar. Es un recurso muy útil si lo que quieres es adentrarte en el desarrollo práctico de ejercicios de educación ambiental. Las dinámicas implican carreras, saltos, análisis, estrategia, trabajo en equipo, liderazgo y muchas habilidades más. ¡Consúltala, seguro no te vas a arrepentir! " textAlignment="JUSTIFY" wrappingWidth="510.13671875">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <ImageView fitHeight="43.0" fitWidth="17.0" layoutX="556.0" layoutY="6.0" onMouseClicked="#cerrardescripcion" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../imagenes/Iconos/close.png" />
                      </image>
                   </ImageView>
-                  <ScrollPane fx:id="scroll" fitToWidth="true" layoutX="33.0" layoutY="25.0" prefHeight="307.0" prefWidth="518.0">
-                     <content>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" wrappingWidth="516.8034057617188" />
-                     </content>
-                  </ScrollPane>
+                  <Text fill="WHITE" layoutX="160.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descripción Detallada">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
                </children>
             </Pane>
             <ImageView fitHeight="675.0" fitWidth="775.0" pickOnBounds="true">
@@ -88,7 +179,7 @@
                   </ImageView>
                </children>
             </AnchorPane>
-            <Text fill="WHITE" layoutX="99.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
+            <Text fill="WHITE" layoutX="115.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenido">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

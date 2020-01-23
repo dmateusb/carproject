@@ -74,9 +74,9 @@ public class VentanasIndividuales {
     @FXML
     void mouseHandled(MouseEvent event) {
         if(event.getSource()==btndescripcion){
-            panelespecificacion.toFront();
-        }else if(event.getSource()==btnespecifificacion){
             paneldescripcion.toFront();
+        }else if(event.getSource()==btnespecifificacion){
+            panelespecificacion.toFront();
         }
     }
 
